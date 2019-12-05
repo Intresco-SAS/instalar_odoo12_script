@@ -24,4 +24,5 @@ git clone https://github.com/agavariat/accounting_pdf_reports.git
 git clone https://github.com/agavariat/om_account_asset.git
 git clone https://github.com/agavariat/om_account_budget.git
 git clone https://github.com/Yenthe666/auto_backup.git
+git clone https://github.com/agavariat/cenit_base.git
 reboot
