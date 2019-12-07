@@ -27,4 +27,5 @@ git clone https://github.com/Yenthe666/auto_backup.git
 git clone https://github.com/agavariat/cenit_base.git
 git clone https://github.com/OCA/contract.git
 git clone https://github.com/agavariat/web_favicon.git
+git clone https://github.com/agavariat/pos_stock_realtime.git
 reboot
