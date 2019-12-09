@@ -29,4 +29,5 @@ git clone https://github.com/OCA/contract.git
 git clone https://github.com/agavariat/web_favicon.git
 git clone https://github.com/agavariat/pos_stock_realtime.git
 git clone https://github.com/agavariat/odoo_pos_keyboard.git
+git clone https://github.com/agavariat/purchase_discount.git
 reboot
