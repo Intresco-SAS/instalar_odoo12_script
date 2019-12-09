@@ -19,6 +19,7 @@ git clone https://github.com/agavariat/ba_web_gantt.git
 git clone https://github.com/agavariat/ba_task_checklist.git
 git clone https://github.com/agavariat/muk_autovacuum.git
 git clone https://github.com/agavariat/muk_utils.git
+git clone https://github.com/agavariat/muk_web_utils.git
 git clone https://github.com/agavariat/muk_web_theme.git
 git clone https://github.com/agavariat/om_account_accountant.git
 git clone https://github.com/agavariat/accounting_pdf_reports.git
