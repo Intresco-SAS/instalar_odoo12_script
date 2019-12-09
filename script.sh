@@ -16,6 +16,7 @@ pip3 pip install pysftp
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/ba_web_gantt_project.git
 git clone https://github.com/agavariat/ba_web_gantt.git
+git clone https://github.com/agavariat/ba_task_checklist.git
 git clone https://github.com/agavariat/muk_autovacuum.git
 git clone https://github.com/agavariat/muk_utils.git
 git clone https://github.com/agavariat/muk_web_theme.git
