@@ -29,4 +29,8 @@ git clone https://github.com/agavariat/pos_stock_realtime.git
 git clone https://github.com/agavariat/odoo_pos_keyboard.git
 git clone https://github.com/agavariat/purchase_discount.git
 git clone https://github.com/agavariat/pos_order_mgmt.git
+git clone https://github.com/agavariat/muk_web_utils.git
+git clone https://github.com/agavariat/muk_web_theme.git
+git clone https://github.com/agavariat/muk_utils.git
+git clone https://github.com/agavariat/muk_autovacuum.git
 reboot
