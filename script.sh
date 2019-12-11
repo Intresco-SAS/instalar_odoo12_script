@@ -33,4 +33,5 @@ git clone https://github.com/agavariat/muk_web_utils.git
 git clone https://github.com/agavariat/muk_web_theme.git
 git clone https://github.com/agavariat/muk_utils.git
 git clone https://github.com/agavariat/muk_autovacuum.git
+git clone https://github.com/agavariat/pos_personalized_sequence.git
 reboot
