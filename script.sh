@@ -13,6 +13,8 @@ chmod 777 /usr/lib/python3/dist-packages/odoo/addons
 apt install unzip
 apt install python3-pip
 pip3 pip install pysftp
+pip3 install xlrd
+pip3 install xlwt 
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/ba_web_gantt_project.git
 git clone https://github.com/agavariat/ba_web_gantt.git
