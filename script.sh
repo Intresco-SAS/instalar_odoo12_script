@@ -1,5 +1,5 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
-apt-get update && apt-get upgrade
+apt-get update && apt-get upgrade -y
 apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 echo "deb http://nightly.odoo.com/12.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/odoo.list
