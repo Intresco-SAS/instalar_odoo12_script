@@ -25,7 +25,6 @@ git clone https://github.com/agavariat/om_account_asset.git
 git clone https://github.com/agavariat/om_account_budget.git
 git clone https://github.com/Yenthe666/auto_backup.git
 git clone https://github.com/agavariat/cenit_base.git
-git clone https://github.com/OCA/contract.git
 git clone https://github.com/agavariat/web_favicon.git
 git clone https://github.com/agavariat/pos_stock_realtime.git
 git clone https://github.com/agavariat/odoo_pos_keyboard.git
@@ -39,4 +38,5 @@ git clone https://github.com/agavariat/pos_personalized_sequence.git
 git clone https://github.com/agavariat/bi_pos_reports.git
 git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
 git clone https://github.com/agavariat/pos_ticket.git
+git clone https://github.com/agavariat/contract.git
 reboot
