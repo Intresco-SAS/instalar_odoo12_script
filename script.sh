@@ -16,6 +16,8 @@ pip3 pip install pysftp
 pip3 install xlrd
 pip3 install xlwt 
 cd /usr/lib/python3/dist-packages/odoo/addons
+git clone https://github.com/agavariat/l10n_co_res_partner.git
+https://github.com/agavariat/l10n_co_tax_extension.git
 git clone https://github.com/agavariat/ba_web_gantt_project.git
 git clone https://github.com/agavariat/ba_web_gantt.git
 git clone https://github.com/agavariat/ba_task_checklist.git
@@ -25,6 +27,7 @@ git clone https://github.com/agavariat/om_account_asset.git
 git clone https://github.com/agavariat/om_account_budget.git
 git clone https://github.com/Yenthe666/auto_backup.git
 git clone https://github.com/agavariat/cenit_base.git
+git clone https://github.com/OCA/contract.git
 git clone https://github.com/agavariat/web_favicon.git
 git clone https://github.com/agavariat/pos_stock_realtime.git
 git clone https://github.com/agavariat/odoo_pos_keyboard.git
@@ -38,5 +41,4 @@ git clone https://github.com/agavariat/pos_personalized_sequence.git
 git clone https://github.com/agavariat/bi_pos_reports.git
 git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
 git clone https://github.com/agavariat/pos_ticket.git
-git clone https://github.com/agavariat/contract.git
 reboot
