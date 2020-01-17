@@ -17,7 +17,7 @@ pip3 install xlrd
 pip3 install xlwt 
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/l10n_co_res_partner.git
-https://github.com/agavariat/l10n_co_tax_extension.git
+git clone https://github.com/agavariat/l10n_co_tax_extension.git
 git clone https://github.com/agavariat/ba_web_gantt_project.git
 git clone https://github.com/agavariat/ba_web_gantt.git
 git clone https://github.com/agavariat/ba_task_checklist.git
