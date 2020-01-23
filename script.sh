@@ -41,4 +41,5 @@ git clone https://github.com/agavariat/pos_personalized_sequence.git
 git clone https://github.com/agavariat/bi_pos_reports.git
 git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
 git clone https://github.com/agavariat/pos_ticket.git
+git clone https://github.com/agavariat/purchase_order_automation.git
 reboot
