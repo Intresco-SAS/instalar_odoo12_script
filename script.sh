@@ -14,7 +14,8 @@ apt install unzip
 apt install python3-pip -y
 pip3 pip install pysftp 
 pip3 install xlrd
-pip3 install xlwt 
+pip3 install xlwt
+pip3 install python-barcode
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/l10n_co_tax_extension.git
