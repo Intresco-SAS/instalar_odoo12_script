@@ -45,4 +45,5 @@ git clone https://github.com/agavariat/pos_ticket.git
 git clone https://github.com/agavariat/purchase_order_automation.git
 git clone https://github.com/agavariat/barcodes_generator_product.git
 git clone https://github.com/agavariat/barcodes_generator_abstract.git
+git clone https://github.com/agavariat/pos_margin.git
 reboot
