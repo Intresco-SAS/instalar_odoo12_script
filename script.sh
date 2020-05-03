@@ -62,7 +62,7 @@ upstream odoo-im {
   }
 EOF
 
-sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
+#sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
 #cd /etc/odoo
 #echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
 #echo "netrpc_interface = 127.0.0.1" >> odoo.conf
