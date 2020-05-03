@@ -21,7 +21,7 @@ pip3 install xlwt
 pip3 install python-barcode
 apt-get update
 apt-get install nginx -y
-rm /etc/nginx/nginx.conf
+#rm /etc/nginx/nginx.conf
 cd
 git clone https://github.com/agavariat/dominio.git
 mv dominio/dominio /etc/nginx/sites-available/$dom
