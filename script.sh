@@ -20,13 +20,15 @@ pip3 install xlwt
 pip3 install python-barcode
 apt-get update
 apt-get install nginx -y
+rm /etc/nginx/nginx.conf
 cd
 git clone https://github.com/agavariat/dominio.git
 ln -s dominio/dominio /etc/nginx/sites-available
+ln -s dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
 cat > dominio <<EOF
 server {
-server_name $dominio www.$dominio $IP;
+server_name $dominio1 www.$dominio1 $IP1;
 listen 80;
 access_log /var/log/nginx/testing-access.log;
 error_log /var/log/nginx/testing-error.log;
@@ -60,6 +62,8 @@ upstream odoo-im {
 server 127.0.0.1:8072 weight=1 fail_timeout=0;
 }
 EOF
+echo "$IP" >> "$IP1"
+echo "$dominio" >> "$dominio1"
 apt-get update
 apt-get install software-properties-common
 add-apt-repository universe
