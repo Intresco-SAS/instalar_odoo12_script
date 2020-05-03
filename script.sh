@@ -27,7 +27,7 @@ git clone https://github.com/agavariat/dominio.git
 mv dominio/dominio /etc/nginx/sites-available
 mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
-cat <<-EOF > dominio
+cat <<EOF > dominio
 server {
   server_name dom www.dom oIP;
   listen 80;
