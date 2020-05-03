@@ -67,12 +67,16 @@ cd /etc/odoo
 echo "proxy_mode = True" >> odoo.conf
 echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
 echo "netrpc_interface = 127.0.0.1" >> odoo.conf
-sudo ufw allow 22
-sudo ufw allow 8069
-sudo ufw allow ‘Nginx Full’
-sudo ufw enable
-sudo service odoo restart
-sudo service nginx restart
+cd /etc/nginx/sites-available
+rm default
+cd /etc/nginx/sites-enable
+rm default
+ufw allow 22
+ufw allow 8069
+ufw allow 'Nginx Full'
+ufw enable
+service odoo restart
+service nginx restart
 apt-get update
 apt-get install software-properties-common
 add-apt-repository universe
