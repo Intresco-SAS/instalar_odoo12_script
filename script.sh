@@ -16,6 +16,13 @@ pip3 install pysftp
 pip3 install xlrd
 pip3 install xlwt
 pip3 install python-barcode
+apt-get update
+apt-get install nginx -y
+apt-get update
+apt-get install software-properties-common
+add-apt-repository universe
+add-apt-repository ppa:certbot/certbot        
+apt-get install certbot python-certbot-nginx -y
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/l10n_co_tax_extension.git
