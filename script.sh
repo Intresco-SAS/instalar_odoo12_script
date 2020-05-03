@@ -62,23 +62,22 @@ upstream odoo-im {
 server 127.0.0.1:8072 weight=1 fail_timeout=0;
 }
 EOF
-echo "$IP" >> "$IP1"
-echo "$dominio" >> "$dominio1"
-#dominio1=/dominio
-#if [ -f "$dominio1" ]
-#then
-#echo "$IP" > "$dominio1"
-#fi
-#IP1=/dominio
-#if [ -f "$IP1" ]
-#then 
-#    echo "$IP" > "$IP1"
-#fi
+sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
+cd /etc/odoo
+echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
+echo "netrpc_interface = 127.0.0.1" >> odoo.conf
+sudo ufw allow 22
+sudo ufw allow 8069
+sudo ufw allow ‘Nginx Full’
+sudo ufw enable
+sudo service odoo restart
+sudo service nginx restart
 apt-get update
 apt-get install software-properties-common
 add-apt-repository universe
-add-apt-repository ppa:certbot/certbot        
+add-apt-repository ppa:certbot/certbot
 apt-get install certbot python-certbot-nginx -y
+sudo certbot --nginx -d $dom -d www.$dom
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/l10n_co_res_partner.git
