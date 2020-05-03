@@ -64,6 +64,16 @@ server 127.0.0.1:8072 weight=1 fail_timeout=0;
 EOF
 echo "$IP" >> "$IP1"
 echo "$dominio" >> "$dominio1"
+#dominio1=/dominio
+#if [ -f "$dominio1" ]
+#then
+#echo "$IP" > "$dominio1"
+#fi
+#IP1=/dominio
+#if [ -f "$IP1" ]
+#then 
+#    echo "$IP" > "$IP1"
+#fi
 apt-get update
 apt-get install software-properties-common
 add-apt-repository universe
