@@ -61,8 +61,8 @@ server 127.0.0.1:8069 weight=1 fail_timeout=0;
 upstream odoo-im {
 server 127.0.0.1:8072 weight=1 fail_timeout=0;
 }
-exit 0
 EOF
+
 sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
 cd /etc/odoo
 echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
