@@ -24,10 +24,10 @@ apt-get install nginx -y
 rm /etc/nginx/nginx.conf
 cd
 git clone https://github.com/agavariat/dominio.git
-mv dominio/dominio /etc/nginx/sites-available
+mv dominio/dominio /etc/nginx/sites-available/$dom
 mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
-cat <<EOF > dominio
+cat <<EOF > $dom
 server {
   server_name $dom www.$dom $oIP;
   listen 80;
@@ -62,7 +62,7 @@ upstream odoo-im {
   }
 EOF
 
-sudo ln -s /etc/nginx/sites-available/dominio /etc/nginx/sites-enabled/dominio
+sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
 cd /etc/odoo
 echo "proxy_mode = True" >> odoo.conf
 echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
