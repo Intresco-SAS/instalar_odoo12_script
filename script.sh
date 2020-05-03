@@ -67,9 +67,11 @@ cd /etc/odoo
 echo "proxy_mode = True" >> odoo.conf
 echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
 echo "netrpc_interface = 127.0.0.1" >> odoo.conf
-cd /etc/nginx/sites-available
-rm default
+cd
 cd /etc/nginx/sites-enable
+rm default
+cd
+cd /etc/nginx/sites-available
 rm default
 ufw allow 22
 ufw allow 8069
