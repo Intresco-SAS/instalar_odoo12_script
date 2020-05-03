@@ -53,7 +53,7 @@ server {
   }
   gzip on;
   gzip_min_length 1000;
-}
+  }
 upstream odoo {
   server 127.0.0.1:8069 weight=1 fail_timeout=0;
 }
