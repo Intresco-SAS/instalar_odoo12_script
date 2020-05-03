@@ -1,12 +1,12 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
 #!/bin/bash
-dom="intresco.co"
+dom="supernova.intresco.co"
 oIP="3.182.234.123"
 apt-get update && apt-get upgrade -y
 apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 echo "deb http://nightly.odoo.com/12.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/odoo.list
-#apt-get update && apt-get install odoo -y
+apt-get update && apt-get install odoo -y
 sudo wget https://builds.wkhtmltopdf.org/0.12.1.3/wkhtmltox_0.12.1.3-1~bionic_amd64.deb
 sudo dpkg -i wkhtmltox_0.12.1.3-1~bionic_amd64.deb
 sudo apt-get install -f -y
