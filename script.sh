@@ -24,40 +24,40 @@ cd
 git clone https://github.com/agavariat/dominio.git
 ln -s dominio/dominio /etc/nginx/sites-available
 cd /etc/nginx/sites-available
-cat <<EOF >dominio
+cat > dominio <<EOF
 server {
-          server_name $dominio www.$dominio $IP;
-          listen 80;
-          access_log /var/log/nginx/testing-access.log;
-          error_log /var/log/nginx/testing-error.log;
-          location /longpolling {
-          proxy_connect_timeout   3600;
-          proxy_read_timeout      3600;
-          proxy_send_timeout      3600;
-          send_timeout            3600;
-          proxy_pass http://127.0.0.1:8072;
-        }
-        location / {
-          proxy_connect_timeout   3600;
-          proxy_read_timeout      3600;
-          proxy_send_timeout      3600;
-          send_timeout            3600;
-          proxy_pass http://127.0.0.1:8069;
-          proxy_set_header Host $host:$server_port;
-          proxy_set_header X-Forwarded-Host $host;
-          proxy_set_header X-Real-IP $remote_addr;
-          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        }
-        gzip on;
-    gzip_min_length 1000;
+server_name $dominio www.$dominio $IP;
+listen 80;
+access_log /var/log/nginx/testing-access.log;
+error_log /var/log/nginx/testing-error.log;
+location /longpolling {
+proxy_connect_timeout 3600;
+proxy_read_timeout 3600;
+proxy_send_timeout 3600;
+send_timeout 3600;
+proxy_pass http://127.0.0.1:8072;
 }
- 
+location / {
+proxy_connect_timeout 3600;
+proxy_read_timeout 3600;
+proxy_send_timeout 3600;
+send_timeout 3600;
+proxy_pass http://127.0.0.1:8069;
+proxy_set_header Host $host:$server_port;
+proxy_set_header X-Forwarded-Host $host;
+proxy_set_header X-Real-IP $remote_addr;
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+}
+gzip on;
+gzip_min_length 1000;
+}
+
 upstream odoo {
-        server 127.0.0.1:8069 weight=1 fail_timeout=0;
+server 127.0.0.1:8069 weight=1 fail_timeout=0;
 }
- 
+
 upstream odoo-im {
-        server 127.0.0.1:8072 weight=1 fail_timeout=0;
+server 127.0.0.1:8072 weight=1 fail_timeout=0;
 }
 EOF
 apt-get update
