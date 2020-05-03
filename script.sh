@@ -77,6 +77,7 @@ apt-get install software-properties-common
 add-apt-repository universe
 add-apt-repository ppa:certbot/certbot
 apt-get install certbot python-certbot-nginx -y
+sudo certbot --nginx
 sudo certbot --nginx -d $dom -d www.$dom
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
