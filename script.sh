@@ -25,7 +25,7 @@ rm /etc/nginx/nginx.conf
 cd
 git clone https://github.com/agavariat/dominio.git
 mv dominio/dominio /etc/nginx/sites-available/$dom
-mv dominio/nginx.conf /etc/nginx/
+#mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
 cat <<EOF > $dom
 server {
