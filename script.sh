@@ -28,7 +28,7 @@ mv dominio/dominio /etc/nginx/sites-available
 mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
 cat <<-EOF > dominio
-server {
+  server {
   server_name $dom www.$dom $oIP;
   listen 80;
   access_log /var/log/nginx/testing-access.log;
@@ -54,12 +54,12 @@ server {
   gzip on;
   gzip_min_length 1000;
   }
-upstream odoo {
-  server 127.0.0.1:8069 weight=1 fail_timeout=0;
-}
-upstream odoo-im {
-  server 127.0.0.1:8072 weight=1 fail_timeout=0;
-}
+  upstream odoo {
+    server 127.0.0.1:8069 weight=1 fail_timeout=0;
+  }
+  upstream odoo-im {
+    server 127.0.0.1:8072 weight=1 fail_timeout=0;
+  }
 EOF
 
 #sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
