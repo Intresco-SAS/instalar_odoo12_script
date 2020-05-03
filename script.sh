@@ -29,7 +29,7 @@ mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
 cat <<EOF > dominio
 server {
-  server_name $"dom" www.$"dom" $"oIP";
+  server_name dom www.dom oIP;
   listen 80;
   access_log /var/log/nginx/testing-access.log;
   error_log /var/log/nginx/testing-error.log;
