@@ -1,6 +1,6 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
-IP="123"
-dominio="123"
+dom=“intresco.co”
+oIP=“3.182.234.123"
 apt-get update && apt-get upgrade -y
 apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
@@ -23,12 +23,12 @@ apt-get install nginx -y
 rm /etc/nginx/nginx.conf
 cd
 git clone https://github.com/agavariat/dominio.git
-ln -s dominio/dominio /etc/nginx/sites-available
-ln -s dominio/nginx.conf /etc/nginx/
+mv dominio/dominio /etc/nginx/sites-available
+mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
-cat > dominio <<EOF
+cat <<EOF > dominio
 server {
-server_name $dominio1 www.$dominio1 $IP1;
+server_name $dom www.$dom $oIP;
 listen 80;
 access_log /var/log/nginx/testing-access.log;
 error_log /var/log/nginx/testing-error.log;
