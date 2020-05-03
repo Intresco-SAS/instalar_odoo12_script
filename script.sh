@@ -26,7 +26,7 @@ git clone https://github.com/agavariat/dominio.git
 mv dominio/dominio /etc/nginx/sites-available
 mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
-cat <<EOF > dominio
+cat <<-EOF > dominio
 server {
 server_name $dom www.$dom $oIP;
 listen 80;
@@ -53,11 +53,9 @@ proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 gzip on;
 gzip_min_length 1000;
 }
-
 upstream odoo {
 server 127.0.0.1:8069 weight=1 fail_timeout=0;
 }
-
 upstream odoo-im {
 server 127.0.0.1:8072 weight=1 fail_timeout=0;
 }
