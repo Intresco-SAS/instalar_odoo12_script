@@ -29,7 +29,7 @@ mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
 cat <<EOF > dominio
 server {
-  server_name dom wwwdom oIP;
+  server_name $dom www.$dom $oIP;
   listen 80;
   access_log /var/log/nginx/testing-access.log;
   error_log /var/log/nginx/testing-error.log;
@@ -62,10 +62,10 @@ upstream odoo-im {
   }
 EOF
 
-#sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
-#cd /etc/odoo
-#echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
-#echo "netrpc_interface = 127.0.0.1" >> odoo.conf
+sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
+cd /etc/odoo
+echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
+echo "netrpc_interface = 127.0.0.1" >> odoo.conf
 sudo ufw allow 22
 sudo ufw allow 8069
 sudo ufw allow ‘Nginx Full’
