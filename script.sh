@@ -1,7 +1,7 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
 #!/bin/bash
-#dom=“intresco.co”
-#oIP=“3.182.234.123"
+dom=“intresco.co”
+oIP=“3.182.234.123"
 apt-get update && apt-get upgrade -y
 apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
@@ -29,7 +29,7 @@ mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
 cat <<EOF > dominio
 server {
-  server_name dom www.dom oIP;
+  server_name $dom www.$dom $oIP;
   listen 80;
   access_log /var/log/nginx/testing-access.log;
   error_log /var/log/nginx/testing-error.log;
@@ -62,7 +62,7 @@ upstream odoo-im {
   }
 EOF
 
-#sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
+sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
 #cd /etc/odoo
 #echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
 #echo "netrpc_interface = 127.0.0.1" >> odoo.conf
@@ -77,7 +77,7 @@ apt-get install software-properties-common
 add-apt-repository universe
 add-apt-repository ppa:certbot/certbot
 apt-get install certbot python-certbot-nginx -y
-#sudo certbot --nginx -d $dom -d www.$dom
+sudo certbot --nginx -d $dom -d www.$dom
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/l10n_co_res_partner.git
