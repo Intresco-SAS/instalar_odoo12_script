@@ -62,8 +62,9 @@ upstream odoo-im {
   }
 EOF
 
-sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
+sudo ln -s /etc/nginx/sites-available/dominio /etc/nginx/sites-enabled/dominio
 cd /etc/odoo
+echo "proxy_mode = True" >> odoo.conf
 echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
 echo "netrpc_interface = 127.0.0.1" >> odoo.conf
 sudo ufw allow 22
