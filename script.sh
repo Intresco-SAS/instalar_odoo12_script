@@ -69,7 +69,7 @@ echo "netrpc_interface = 127.0.0.1" >> odoo.conf
 sudo ufw allow 22
 sudo ufw allow 8069
 sudo ufw allow ‘Nginx Full’
-sudo ufw enable
+sudo ufw enable -y
 sudo service odoo restart
 sudo service nginx restart
 apt-get update
