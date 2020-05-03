@@ -21,11 +21,9 @@ pip3 install xlwt
 pip3 install python-barcode
 apt-get update
 apt-get install nginx -y
-#rm /etc/nginx/nginx.conf
 cd
 git clone https://github.com/agavariat/dominio.git
 mv dominio/dominio /etc/nginx/sites-available/$dom
-#mv dominio/nginx.conf /etc/nginx/
 cd /etc/nginx/sites-available
 cat <<EOF > $dom
 server {
@@ -86,6 +84,9 @@ add-apt-repository ppa:certbot/certbot
 apt-get install certbot python-certbot-nginx -y
 certbot --nginx
 certbot --nginx -d $dom -d www.$dom
+cd
+cd /etc/nginx/
+sed -i '12iclient_max_body_size 100M;' nginx.conf
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/l10n_co_res_partner.git
