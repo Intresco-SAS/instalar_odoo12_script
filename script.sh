@@ -71,6 +71,7 @@ rm default
 cd
 cd /etc/nginx/sites-available
 rm default
+cd
 ufw allow 22
 ufw allow 8069
 ufw allow 'Nginx Full'
