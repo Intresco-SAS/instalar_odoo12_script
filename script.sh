@@ -63,9 +63,9 @@ server 127.0.0.1:8072 weight=1 fail_timeout=0;
 }
 EOF
 sudo ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
-cd /etc/odoo
-echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
-echo "netrpc_interface = 127.0.0.1" >> odoo.conf
+#cd /etc/odoo
+#echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
+#echo "netrpc_interface = 127.0.0.1" >> odoo.conf
 sudo ufw allow 22
 sudo ufw allow 8069
 sudo ufw allow ‘Nginx Full’
