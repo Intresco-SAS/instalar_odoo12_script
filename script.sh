@@ -1,7 +1,7 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
 #!/bin/bash
-dom="merqando.co"
-oIP="3.14.5.18"
+dom="efgh"
+oIP="3.21.37.137"
 apt-get update && apt-get upgrade -y
 apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
