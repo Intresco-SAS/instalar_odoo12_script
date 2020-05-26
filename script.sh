@@ -18,6 +18,7 @@ apt install python3-pip -y
 pip3 install pysftp
 pip3 install xlrd
 pip3 install xlwt
+pip3 install boto3
 pip3 install python-barcode
 apt-get update
 apt-get install nginx -y
