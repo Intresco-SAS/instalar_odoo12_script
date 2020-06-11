@@ -9,7 +9,7 @@ echo "deb http://nightly.odoo.com/12.0/nightly/deb/ ./" >> /etc/apt/sources.list
 apt-get update && apt-get install odoo -y
 git clone https://github.com/agavariat/wkhtmltox_0.12.5-1.bionic_amd64.deb.git
 mv wkhtmltox_0.12.5-1.bionic_amd64/wkhtmltox_0.12.5-1.bionic_amd64.deb ~/
-sudo dpkg -i wkhtmltox_0.12.1.3-1~bionic_amd64.deb
+sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo apt-get install -f -y
 sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
 sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
