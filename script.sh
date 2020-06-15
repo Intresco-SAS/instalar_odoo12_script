@@ -124,5 +124,6 @@ git clone https://github.com/agavariat/bi_odoo_process_costing_manufacturing.git
 git clone https://github.com/agavariat/theme_comercio.git
 git clone https://github.com/agavariat/comercio_web.git
 git clone https://github.com/agavariat/payu.git
-chmod -R 777 /usr/lib/python3/dist-packages/odoo/addons/comercio_web
+git clone https://github.com/agavariat/automatic_backup.git
+chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
