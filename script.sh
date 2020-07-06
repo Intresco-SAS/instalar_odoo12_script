@@ -21,6 +21,11 @@ pip3 install xlrd
 pip3 install xlwt
 pip3 install boto3
 pip3 install python-barcode
+pip3 install pyopenssl
+pip3 install requests
+pip3 install xmltodict
+pip3 install PyQRCode
+pip3 install pypng
 apt-get update
 apt-get install nginx -y
 cd
