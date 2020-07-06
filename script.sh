@@ -7,7 +7,7 @@ apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 echo "deb http://nightly.odoo.com/12.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/odoo.list
 apt-get update && apt-get install odoo -y
-git clone https://github.com/agavariat/wkhtmltox_0.12.5-1.bionic_amd64.deb.git
+git clone https://github.com/agavariat/wkhtmltox_0.12.5-1.bionic_amd64.git
 mv wkhtmltox_0.12.5-1.bionic_amd64/wkhtmltox_0.12.5-1.bionic_amd64.deb ~/
 sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo apt-get install -f -y
