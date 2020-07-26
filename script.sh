@@ -1,7 +1,7 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
 #!/bin/bash
-dom="gagttechnorium.co"
-oIP="18.225.6.101"
+dom="gagt.technorium.co"
+oIP="18.218.132.166"
 apt-get update && apt-get upgrade -y
 apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
