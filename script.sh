@@ -1,7 +1,5 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
 #!/bin/bash
-dom="produccion.intresco.co"
-oIP="3.15.213.3"
 apt-get update && apt-get upgrade -y
 apt-get install postgresql -y
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
@@ -13,7 +11,7 @@ sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo apt-get install -f -y
 sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
 sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
-chmod 777 /usr/lib/python3/dist-packages/odoo/addons
+chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons
 apt install unzip
 apt install python3-pip -y
 pip3 install pysftp
@@ -27,70 +25,6 @@ pip3 install xmltodict
 pip3 install PyQRCode
 pip3 install pypng
 apt-get update
-apt-get install nginx -y
-cd
-git clone https://github.com/agavariat/dominio.git
-mv dominio/dominio /etc/nginx/sites-available/$dom
-cd /etc/nginx/sites-available
-cat <<EOF > $dom
-server {
-  server_name $dom www.$dom $oIP;
-  listen 80;
-  access_log /var/log/nginx/testing-access.log;
-  error_log /var/log/nginx/testing-error.log;
-  location /longpolling {
-  proxy_connect_timeout 3600;
-  proxy_read_timeout 3600;
-  proxy_send_timeout 3600;
-  send_timeout 3600;
-  proxy_pass http://127.0.0.1:8072;
-  }
-  location / {
-  proxy_connect_timeout 3600;
-  proxy_read_timeout 3600;
-  proxy_send_timeout 3600;
-  send_timeout 3600;
-  proxy_pass http://127.0.0.1:8069;
-  proxy_set_header Host \$host:\$server_port;
-  proxy_set_header X-Forwarded-Host \$host;
-  proxy_set_header X-Real-IP \$remote_addr;
-  proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
-  }
-  gzip on;
-  gzip_min_length 1000;
-  }
-upstream odoo {
-    server 127.0.0.1:8069 weight=1 fail_timeout=0;
-}
-upstream odoo-im {
-    server 127.0.0.1:8072 weight=1 fail_timeout=0;
-  }
-EOF
-
-ln -s /etc/nginx/sites-available/$dom /etc/nginx/sites-enabled/$dom
-cd /etc/odoo
-echo "proxy_mode = True" >> odoo.conf
-echo "xmlrpc_interface = 127.0.0.1" >> odoo.conf
-echo "netrpc_interface = 127.0.0.1" >> odoo.conf
-cd /etc/nginx/sites-enabled
-rm default
-cd /etc/nginx/sites-available
-rm default
-cd
-ufw allow 22
-ufw allow 8069
-ufw allow 'Nginx Full'
-ufw enable
-service odoo restart
-service nginx restart
-apt-get update
-apt-get install software-properties-common
-add-apt-repository universe
-add-apt-repository ppa:certbot/certbot
-apt-get install certbot python-certbot-nginx
-certbot --nginx
-cd /etc/nginx/
-sed -i '12iclient_max_body_size 100M;' nginx.conf
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/l10n_co_res_partner.git
