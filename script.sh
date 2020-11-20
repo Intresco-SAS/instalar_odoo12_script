@@ -24,6 +24,7 @@ pip3 install requests
 pip3 install xmltodict
 pip3 install PyQRCode
 pip3 install pypng
+pip3 install email-validator
 apt-get update
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
@@ -67,5 +68,6 @@ git clone https://github.com/agavariat/comercio_web.git
 git clone https://github.com/agavariat/payu.git
 git clone https://github.com/agavariat/automatic_backup.git
 git clone https://github.com/agavariat/web_search_with_and.git
+git clone https://github.com/agavariat/partner_email_check.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
