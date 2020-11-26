@@ -69,5 +69,6 @@ git clone https://github.com/agavariat/payu.git
 git clone https://github.com/agavariat/automatic_backup.git
 git clone https://github.com/agavariat/web_search_with_and.git
 git clone https://github.com/agavariat/partner_email_check.git
+git clone https://github.com/agavariat/sale_commission.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
