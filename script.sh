@@ -25,6 +25,7 @@ pip3 install xmltodict
 pip3 install PyQRCode
 pip3 install pypng
 pip3 install email-validator
+pip3 install num2words
 apt-get update
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
