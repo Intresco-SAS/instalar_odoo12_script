@@ -63,19 +63,36 @@ git clone https://github.com/agavariat/partner_email_check.git
 git clone https://github.com/agavariat/sale_commission.git
 git clone https://github.com/agavariat/partner_enhancement.git
 git clone https://github.com/agavariat/pos_cash_in_out_odoo.git
+git clone https://github.com/agavariat/ProjectCategory.git
+git clone https://github.com/agavariat/account_financial_report.git
 git clone https://github.com/agavariat/account_group_menu.git
+git clone https://github.com/agavariat/alan_customize.git
+git clone https://github.com/agavariat/base_external_dbsource.git
 git clone https://github.com/agavariat/bi_hr_overtime_request.git
 git clone https://github.com/agavariat/bi_mass_payslip_by_email.git
+git clone https://github.com/agavariat/crm_facebook_leads.git
+git clone https://github.com/agavariat/date_range.git
 git clone https://github.com/agavariat/done_activity.git
 git clone https://github.com/agavariat/eq_payslip_custom_pdf_report.git
+git clone https://github.com/agavariat/kpi.git
 git clone https://github.com/agavariat/l10n_co_hr_payroll.git
 git clone https://github.com/agavariat/mail_send_attchs_zip.git
 git clone https://github.com/agavariat/ohrms_loan.git
+git clone https://github.com/agavariat/ohrms_loan_accounting.git
 git clone https://github.com/agavariat/payment_report_co.git
+git clone https://github.com/agavariat/payslip_cancel.git
+git clone https://github.com/agavariat/payslip_rules_methods.git
 git clone https://github.com/agavariat/portal_documents_management.git
+git clone https://github.com/agavariat/project_description.git
+git clone https://github.com/agavariat/project_list.git
+git clone https://github.com/agavariat/project_parent_task_filter.git
+git clone https://github.com/agavariat/project_stage_closed.git
 git clone https://github.com/agavariat/project_task_default_stage.git
 git clone https://github.com/agavariat/report_xlsx.git
 git clone https://github.com/agavariat/theme_alan.git
+git clone https://github.com/agavariat/web_widget_color.git
+git clone https://github.com/agavariat/website_facebook_pixel.git
+git clone https://github.com/agavariat/website_google_tag_manager.git
 git clone https://github.com/agavariat/website_support.git
-chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
+git clone https://github.com/agavariat/website_google_tag_manager.git
 reboot
