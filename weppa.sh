@@ -63,5 +63,19 @@ git clone https://github.com/agavariat/partner_email_check.git
 git clone https://github.com/agavariat/sale_commission.git
 git clone https://github.com/agavariat/partner_enhancement.git
 git clone https://github.com/agavariat/pos_cash_in_out_odoo.git
+git clone https://github.com/agavariat/account_group_menu.git
+git clone https://github.com/agavariat/bi_hr_overtime_request.git
+git clone https://github.com/agavariat/bi_mass_payslip_by_email.git
+git clone https://github.com/agavariat/done_activity.git
+git clone https://github.com/agavariat/eq_payslip_custom_pdf_report.git
+git clone https://github.com/agavariat/l10n_co_hr_payroll.git
+git clone https://github.com/agavariat/mail_send_attchs_zip.git
+git clone https://github.com/agavariat/ohrms_loan.git
+git clone https://github.com/agavariat/payment_report_co.git
+git clone https://github.com/agavariat/portal_documents_management.git
+git clone https://github.com/agavariat/project_task_default_stage.git
+git clone https://github.com/agavariat/report_xlsx.git
+git clone https://github.com/agavariat/theme_alan.git
+git clone https://github.com/agavariat/website_support.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
