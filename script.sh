@@ -73,5 +73,6 @@ git clone https://github.com/agavariat/partner_email_check.git
 git clone https://github.com/agavariat/sale_commission.git
 git clone https://github.com/agavariat/partner_enhancement.git
 git clone https://github.com/agavariat/pos_cash_in_out_odoo.git
+git clone https://github.com/agavariat/mail_delivery_failure_notification_oin.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
