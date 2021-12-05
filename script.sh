@@ -76,5 +76,13 @@ git clone https://github.com/agavariat/pos_cash_in_out_odoo.git
 git clone https://github.com/agavariat/mail_delivery_failure_notification_oin.git
 git clone https://github.com/agavariat/pos_auto_session_closed_app.git
 git clone https://github.com/agavariat/account_aiu.git
+git clone https://github.com/agavariat/dev_picking_cancel.git
+git clone https://github.com/agavariat/gtica_whatsapp_live_free.git
+git clone https://github.com/agavariat/website_sale_require_login.git
+git clone https://github.com/agavariat/website_sale_suggest_create_account.git
+git clone https://github.com/agavariat/website_sale_global_discount.git
+git clone https://github.com/agavariat/purchase_last_price_info.git
+git clone https://github.com/agavariat/theme_alan.git
+git clone https://github.com/agavariat/alan_customize.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
