@@ -84,5 +84,16 @@ git clone https://github.com/agavariat/website_sale_global_discount.git
 git clone https://github.com/agavariat/purchase_last_price_info.git
 git clone https://github.com/agavariat/theme_alan.git
 git clone https://github.com/agavariat/alan_customize.git
+git clone https://github.com/agavariat/account_analytic_parent.git
+git clone https://github.com/agavariat/account_group_menu.git
+git clone https://github.com/agavariat/base_external_dbsource.git
+git clone https://github.com/agavariat/crm_facebook_leads.git
+git clone https://github.com/agavariat/date_range.git
+git clone https://github.com/agavariat/done_activity.git
+git clone https://github.com/agavariat/mail_send_attchs_zip.git
+git clone https://github.com/agavariat/payment_report_co.git
+git clone https://github.com/agavariat/website_facebook_pixel.git
+git clone https://github.com/agavariat/website_google_tag_manager.git
+git clone https://github.com/agavariat/report_xlsx.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
