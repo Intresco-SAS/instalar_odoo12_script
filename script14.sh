@@ -28,6 +28,9 @@ pip3 install PyQRCode
 pip3 install pypng
 pip3 install email-validator
 pip3 install num2words
+apt-get update
+cd
+cd /usr/lib/python3/dist-packages/odoo/addons
 git clone https://github.com/agavariat/account_dynamic_reports.git
 git clone https://github.com/agavariat/auth_api_key.git
 git clone https://github.com/agavariat/auto_backup.git
