@@ -29,6 +29,7 @@ pip3 install num2words
 apt-get update
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
+git config --global credential.helper store
 git clone https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/l10n_co_pos_res_partner.git
 git clone https://github.com/agavariat/l10n_co_tax_extension.git
