@@ -1,9 +1,10 @@
-#este script esta hecho para instalar odoo 12 en ubuntu18 server
+#este script esta hecho 
 #!/bin/bash
 #apt-get update && apt-get upgrade -y
 #cd
 #cd /usr/lib/python3/dist-packages/odoo/addons
 #git clone https://github.com/agavariat/l10n_co_res_partner.git
+git config --global credential.helper store
 git clone https://github.com/agavariat/account_dynamic_reports.git
 git clone https://github.com/agavariat/auth_api_key.git
 git clone https://github.com/agavariat/auto_backup.git
