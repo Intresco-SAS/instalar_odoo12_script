@@ -97,7 +97,6 @@ git clone https://github.com/agavariat/mail_send_attchs_zip.git
 git clone https://github.com/agavariat/payment_report_co.git
 git clone https://github.com/agavariat/website_facebook_pixel.git
 git clone https://github.com/agavariat/portal_documents_management.git
-git clone https://github.com/agavariat/website_google_tag_manager.git
 git clone https://github.com/agavariat/report_xlsx.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
