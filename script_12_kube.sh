@@ -68,5 +68,4 @@ git clone https://github.com/agavariat/done_activity.git
 git clone https://github.com/agavariat/mail_send_attchs_zip.git
 git clone https://github.com/agavariat/payment_report_co.git
 git clone https://github.com/agavariat/website_facebook_pixel.git
-git clone https://github.com/agavariat/website_google_tag_manager.git
 git clone https://github.com/agavariat/report_xlsx.git
