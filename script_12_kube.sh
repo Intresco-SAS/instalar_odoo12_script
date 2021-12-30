@@ -54,6 +54,8 @@ git clone https://github.com/agavariat/website_google_tag_manager.git
 git clone https://github.com/agavariat/website_support.git
 git clone https://github.com/agavariat/gtica_whatsapp_live_free.git
 git clone https://github.com/agavariat/website_sale_require_login.git
+git clone https://github.com/agavariat/co-nomina.git
+git clone https://github.com/agavariat/nomina_colombia.git
 git clone https://github.com/agavariat/website_sale_suggest_create_account.git
 git clone https://github.com/agavariat/website_sale_global_discount.git
 git clone https://github.com/agavariat/purchase_last_price_info.git
