@@ -77,8 +77,8 @@ git clone https://github.com/agavariat/pos_cash_in_out_odoo.git
 git clone https://github.com/agavariat/mail_delivery_failure_notification_oin.git
 git clone https://github.com/agavariat/pos_auto_session_closed_app.git
 git clone https://github.com/agavariat/account_aiu.git
-git clone https://github.com/agavariat/co-nomina.git
-git clone https://github.com/agavariat/nomina_colombia.git
+git clone -b main https://github.com/agavariat/co-nomina.git
+git clone -b main https://github.com/agavariat/nomina_colombia.git
 git clone https://github.com/agavariat/dev_picking_cancel.git
 git clone https://github.com/agavariat/gtica_whatsapp_live_free.git
 git clone https://github.com/agavariat/website_sale_require_login.git
