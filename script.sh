@@ -100,5 +100,10 @@ git clone https://github.com/agavariat/payment_report_co.git
 git clone https://github.com/agavariat/website_facebook_pixel.git
 git clone https://github.com/agavariat/portal_documents_management.git
 git clone https://github.com/agavariat/report_xlsx.git
+git clone https://github.com/agavariat/project_description.git
+git clone https://github.com/agavariat/project_list.git
+git clone https://github.com/agavariat/project_parent_task_filter.git
+git clone https://github.com/agavariat/project_stage_closed.git
+git clone https://github.com/agavariat/project_task_default_stage.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
