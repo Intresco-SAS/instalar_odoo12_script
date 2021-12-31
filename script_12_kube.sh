@@ -71,3 +71,8 @@ git clone https://github.com/agavariat/mail_send_attchs_zip.git
 git clone https://github.com/agavariat/payment_report_co.git
 git clone https://github.com/agavariat/website_facebook_pixel.git
 git clone https://github.com/agavariat/report_xlsx.git
+git clone https://github.com/agavariat/project_description.git
+git clone https://github.com/agavariat/project_list.git
+git clone https://github.com/agavariat/project_parent_task_filter.git
+git clone https://github.com/agavariat/project_stage_closed.git
+git clone https://github.com/agavariat/project_task_default_stage.git
