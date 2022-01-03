@@ -76,3 +76,5 @@ git clone https://github.com/agavariat/project_list.git
 git clone https://github.com/agavariat/project_parent_task_filter.git
 git clone https://github.com/agavariat/project_stage_closed.git
 git clone https://github.com/agavariat/project_task_default_stage.git
+git clone https://github.com/agavariat/account_dynamic_reports.git
+git clone https://github.com/agavariat/dynamic_xlsx.git
