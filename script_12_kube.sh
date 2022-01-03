@@ -34,6 +34,7 @@ git clone https://github.com/agavariat/barcodes_generator_product.git
 git clone https://github.com/agavariat/barcodes_generator_abstract.git
 git clone https://github.com/agavariat/pos_margin.git
 git clone https://github.com/agavariat/account_addons.git
+git clone https://github.com/agavariat/account_addons.git
 git clone https://github.com/agavariat/purchase_order_variant_mgmt.git
 git clone https://github.com/agavariat/web_widget_x2many_2d_matrix.git
 git clone https://github.com/agavariat/bi_crm_task.git
