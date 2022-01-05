@@ -76,5 +76,6 @@ git clone https://github.com/agavariat/sale_order_automation.git
 git clone https://github.com/agavariat/sale_order_line_product_image.git
 git clone https://github.com/agavariat/sh_pos_product_code.git
 git clone https://github.com/agavariat/support_documents.git
+git clone https://github.com/agavariat/pos_tip_fixed_percent.git
 apt-get update
 service odoo restart
