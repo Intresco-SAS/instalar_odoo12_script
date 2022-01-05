@@ -107,6 +107,5 @@ git clone https://github.com/agavariat/project_stage_closed.git
 git clone https://github.com/agavariat/project_task_default_stage.git
 git clone https://github.com/agavariat/account_dynamic_reports.git
 git clone https://github.com/agavariat/dynamic_xlsx.git
-git clone https://github.com/agavariat/pos_tip_fixed_percent.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
