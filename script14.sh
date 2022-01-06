@@ -39,12 +39,12 @@ git clone https://github.com/agavariat/base_vat_ext.git
 git clone https://github.com/agavariat/bi_hr_overtime_request.git
 git clone https://github.com/agavariat/bi_import_pos_order.git
 git clone https://github.com/agavariat/bi_pos_pay_later.git
-git clone https://github.com/agavariat/bi_pos_reports.git
+git clone -b 14.0 https://github.com/agavariat/bi_pos_reports.git
 git clone https://github.com/agavariat/bi_pos_reprint_reorder.git
 git clone https://github.com/agavariat/bi_pos_stock.git
 git clone https://github.com/agavariat/bi_pos_warehouse_management.git
 git clone https://github.com/agavariat/dev_payslip_cancel.git
-git clone https://github.com/agavariat/e-invoice-co.git
+git clone https://github.com/Consultoria-y-desarrollo-Quemari/e-invoice-co.git
 git clone https://github.com/agavariat/flexibite_com_advance.git
 git clone https://github.com/agavariat/hw_escpos_network_printer.git
 git clone https://github.com/agavariat/hw_restaurant_ip_printer.git
@@ -54,7 +54,7 @@ git clone https://github.com/agavariat/l10n_co_pos_res_partner.git
 git clone https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/mai_pos_custom_order_number.git
 git clone https://github.com/agavariat/muk_web_theme.git
-git clone https://github.com/agavariat/nomina_colombia.git
+git clone -b 14.0 https://github.com/agavariat/nomina_colombia.git
 git clone https://github.com/agavariat/ob_pos_advance_receipt_note.git
 git clone https://github.com/agavariat/odoo_sale_rental.git
 git clone https://github.com/agavariat/om_account_daily_reports.git
@@ -84,5 +84,11 @@ git clone -b final https://github.com/agavariat/journal_reports.git
 git clone https://github.com/agavariat/pos_default_partner.git
 git clone -b 14.0 https://github.com/agavariat/purchase_discount.git
 git clone https://github.com/agavariat/sh_pos_exact_search.git
+git clone https://github.com/agavariat/invoice_analytic_account.git
+git clone https://github.com/agavariat/purchase_analytic_account.git
+git clone -b 14.0 https://github.com/agavariat/partner_email_check.git
+git clone https://github.com/agavariat/purchase_last_price_info.git
+git clone https://github.com/agavariat/website_floating_whatsapp_icon.git
+git clone https://github.com/agavariat/bi_automated_sale_order.git
 apt-get update
 service odoo restart
