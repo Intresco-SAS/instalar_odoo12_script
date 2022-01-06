@@ -25,7 +25,7 @@ git clone https://github.com/agavariat/hw_restaurant_ip_printer.git
 git clone https://github.com/agavariat/init_web_many2one_disable.git
 git clone https://github.com/agavariat/l10n_co_payroll.git
 git clone https://github.com/agavariat/l10n_co_pos_res_partner.git
-git clone https://github.com/agavariat/l10n_co_res_partner.git
+git clone -b 14.0 https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/mai_pos_custom_order_number.git
 git clone https://github.com/agavariat/muk_web_theme.git
 git clone -b 14.0 https://github.com/agavariat/nomina_colombia.git
@@ -44,7 +44,7 @@ git clone https://github.com/agavariat/pos_tax_display.git
 git clone https://github.com/agavariat/pos_tip_fixed_percent.git
 git clone https://github.com/agavariat/product_cost_with_taxes.git
 git clone https://github.com/agavariat/product_warehouse_quantity.git
-git clone https://github.com/agavariat/purchase_last_price_info.git
+git clone -b 14.0 https://github.com/agavariat/purchase_last_price_info.git
 git clone https://github.com/agavariat/pw_customer_required.git
 git clone https://github.com/agavariat/sale_order_automation.git
 git clone https://github.com/agavariat/sale_order_line_product_image.git
@@ -62,7 +62,6 @@ git clone https://github.com/agavariat/bi_automated_sale_order.git
 git clone https://github.com/agavariat/invoice_analytic_account.git
 git clone https://github.com/agavariat/purchase_analytic_account.git
 git clone -b 14.0 https://github.com/agavariat/partner_email_check.git
-git clone https://github.com/agavariat/purchase_last_price_info.git
 git clone https://github.com/agavariat/website_floating_whatsapp_icon.git
 #apt-get update
 #service odoo restart
