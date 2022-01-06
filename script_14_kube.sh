@@ -38,7 +38,7 @@ git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
 git clone https://github.com/agavariat/pos_logo_change.git
 git clone https://github.com/agavariat/pos_orders_list.git
 git clone https://github.com/agavariat/pos_payment_change.git
-git clone https://github.com/agavariat/pos_personalized_sequence.git
+git clone -b 14.0 https://github.com/agavariat/pos_personalized_sequence.git
 git clone https://github.com/agavariat/pos_show_config_name.git
 git clone https://github.com/agavariat/pos_tax_display.git
 git clone https://github.com/agavariat/pos_tip_fixed_percent.git
