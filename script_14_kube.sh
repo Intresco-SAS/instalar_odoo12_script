@@ -48,7 +48,7 @@ git clone https://github.com/agavariat/sale_order_line_product_image.git
 git clone https://github.com/agavariat/sh_pos_product_code.git
 git clone https://github.com/agavariat/support_documents.git
 git clone https://github.com/agavariat/pos_tip_fixed_percent.git
-git clone -b 14.1 https://github.com/agavariat/account_dynamic_reports.git
+git clone -b 14.0 https://github.com/agavariat/account_dynamic_reports.git
 git clone https://github.com/agavariat/base_account_budget.git
 git clone https://github.com/agavariat/bi_pos_stock.git
 git clone -b final https://github.com/agavariat/journal_reports.git
