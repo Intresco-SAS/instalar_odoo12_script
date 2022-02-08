@@ -88,5 +88,6 @@ git clone https://github.com/agavariat/website_floating_whatsapp_icon.git
 git clone https://github.com/agavariat/bi_automated_sale_order.git
 git clone https://github.com/agavariat/product_cost_with_taxes.git
 git clone https://github.com/agavariat/cotizacion_pos_report.git
+git clone https://github.com/agavariat/website_axis_helpdesk.git
 apt-get update
 service odoo restart
