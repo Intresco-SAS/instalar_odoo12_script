@@ -63,5 +63,7 @@ git clone https://github.com/agavariat/bi_automated_sale_order.git
 git clone https://github.com/agavariat/product_cost_with_taxes.git
 git clone https://github.com/agavariat/cotizacion_pos_report.git
 git clone https://github.com/agavariat/website_axis_helpdesk.git
+git clone -b 14.0 https://github.com/agavariat/droggol_theme_common.git
+git clone -b 14.0 https://github.com/agavariat/theme_prime.git
 #apt-get update
 #service odoo restart
