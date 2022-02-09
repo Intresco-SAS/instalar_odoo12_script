@@ -89,5 +89,11 @@ git clone https://github.com/agavariat/bi_automated_sale_order.git
 git clone https://github.com/agavariat/product_cost_with_taxes.git
 git clone https://github.com/agavariat/cotizacion_pos_report.git
 git clone https://github.com/agavariat/website_axis_helpdesk.git
+git clone https://github.com/agavariat/analytic_account_enh.git
+git clone https://github.com/agavariat/mrp_analytic.git
+git clone https://github.com/agavariat/mrp_analytic_sale_project.git
+git clone https://github.com/agavariat/account_analytic_parent.git
+git clone https://github.com/agavariat/pass_analytic_acc_in_journal_app.git
+git clone https://github.com/agavariat/stock_analytic.git
 apt-get update
 service odoo restart
