@@ -97,5 +97,6 @@ git clone https://github.com/agavariat/pass_analytic_acc_in_journal_app.git
 git clone https://github.com/agavariat/stock_analytic.git
 git clone -b 14.0 https://github.com/agavariat/droggol_theme_common.git
 git clone -b 14.0 https://github.com/agavariat/theme_prime.git
+git clone -b 14.0 https://github.com/agavariat/contract.git
 apt-get update
 service odoo restart
