@@ -31,7 +31,6 @@ pip3 install num2words
 apt-get update
 cd /usr/lib/python3/dist-packages/odoo/addons
 git config --global credential.helper store
-git clone https://github.com/agavariat/auth_api_key.git
 git clone -b 14.0 https://github.com/agavariat/auto_backup.git
 git clone https://github.com/agavariat/auto_odoo_db_and_file_backup.git
 git clone https://github.com/agavariat/base_vat_ext.git
