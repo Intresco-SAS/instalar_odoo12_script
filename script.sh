@@ -26,6 +26,7 @@ pip3 install PyQRCode
 pip3 install pypng
 pip3 install email-validator
 pip3 install num2words
+pip3 install phonenumbers
 apt-get update
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
@@ -108,5 +109,13 @@ git clone https://github.com/agavariat/project_task_default_stage.git
 git clone https://github.com/agavariat/account_dynamic_reports.git
 git clone https://github.com/agavariat/dynamic_xlsx.git
 git clone https://github.com/agavariat/pos_session_closing_stock_error.git
+git clone https://github.com/agavariat/account_tax_balance.git
+git clone https://github.com/agavariat/account_type_menu.git
+git clone https://github.com/agavariat/custom_sensation.git
+git clone https://github.com/agavariat/l10n_co_res_partner_crm.git
+git clone https://github.com/agavariat/partner_statement.git
+git clone https://github.com/agavariat/pos_order_to_sale_order.git
+git clone https://github.com/agavariat/account_financial_report.git
+
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
