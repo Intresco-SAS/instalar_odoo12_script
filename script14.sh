@@ -48,7 +48,6 @@ git clone https://github.com/agavariat/hw_restaurant_ip_printer.git
 git clone https://github.com/agavariat/init_web_many2one_disable.git
 git clone https://github.com/agavariat/l10n_co_payroll.git
 git clone -b 14.0 https://github.com/agavariat/l10n_co_pos_res_partner.git
-git clone -b 14.0 https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/mai_pos_custom_order_number.git
 git clone -b 14.0 https://github.com/agavariat/muk_web_theme.git
 git clone -b 14.0 https://github.com/agavariat/nomina_colombia.git
