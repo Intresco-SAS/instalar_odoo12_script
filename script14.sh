@@ -28,6 +28,8 @@ pip3 install PyQRCode
 pip3 install pypng
 pip3 install email-validator
 pip3 install num2words
+pip3 install pandas
+pip3 install holidays
 apt-get update
 cd /usr/lib/python3/dist-packages/odoo/addons
 git config --global credential.helper store
