@@ -1,11 +1,6 @@
 #este script esta hecho 
 #!/bin/bash
-#apt-get update && apt-get upgrade -y
-#cd
-#cd /usr/lib/python3/dist-packages/odoo/addons
-#git clone https://github.com/agavariat/l10n_co_res_partner.git
 git config --global credential.helper store
-git clone https://github.com/agavariat/auth_api_key.git
 git clone -b 14.0 https://github.com/agavariat/auto_backup.git
 git clone https://github.com/agavariat/auto_odoo_db_and_file_backup.git
 git clone https://github.com/agavariat/base_vat_ext.git
@@ -23,7 +18,6 @@ git clone https://github.com/agavariat/hw_restaurant_ip_printer.git
 git clone https://github.com/agavariat/init_web_many2one_disable.git
 git clone https://github.com/agavariat/l10n_co_payroll.git
 git clone -b 14.0 https://github.com/agavariat/l10n_co_pos_res_partner.git
-git clone -b 14.0 https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/mai_pos_custom_order_number.git
 git clone -b 14.0 https://github.com/agavariat/muk_web_theme.git
 git clone -b 14.0 https://github.com/agavariat/nomina_colombia.git
@@ -33,7 +27,7 @@ git clone https://github.com/agavariat/om_account_daily_reports.git
 git clone https://github.com/agavariat/payslip_cancel.git
 git clone https://github.com/agavariat/pos_analytic_account.git
 git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
-#git clone https://github.com/agavariat/pos_logo_change.git
+git clone https://github.com/agavariat/bi_pos_return_order.git
 git clone https://github.com/agavariat/pos_orders_list.git
 git clone https://github.com/agavariat/pos_payment_change.git
 git clone -b 14.0 https://github.com/agavariat/pos_personalized_sequence.git
@@ -63,7 +57,14 @@ git clone https://github.com/agavariat/bi_automated_sale_order.git
 git clone https://github.com/agavariat/product_cost_with_taxes.git
 git clone https://github.com/agavariat/cotizacion_pos_report.git
 git clone https://github.com/agavariat/website_axis_helpdesk.git
+git clone https://github.com/agavariat/analytic_account_enh.git
+git clone https://github.com/agavariat/mrp_analytic.git
+git clone https://github.com/agavariat/mrp_analytic_sale_project.git
+git clone https://github.com/agavariat/account_analytic_parent.git
+git clone https://github.com/agavariat/pass_analytic_acc_in_journal_app.git
+git clone https://github.com/agavariat/stock_analytic.git
 git clone -b 14.0 https://github.com/agavariat/droggol_theme_common.git
 git clone -b 14.0 https://github.com/agavariat/theme_prime.git
-#apt-get update
-#service odoo restart
+git clone -b 14.0 https://github.com/agavariat/contract.git
+apt-get update
+service odoo restart
