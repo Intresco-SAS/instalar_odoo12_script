@@ -117,5 +117,6 @@ git clone https://github.com/agavariat/l10n_co_res_partner_crm.git
 git clone https://github.com/agavariat/partner_statement.git
 git clone https://github.com/agavariat/pos_order_to_sale_order.git
 git clone https://github.com/agavariat/account_financial_report.git
+git clone https://github.com/agavariat/default_account_credit_note.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
