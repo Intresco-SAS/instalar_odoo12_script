@@ -1,5 +1,6 @@
 #este script esta hecho para instalar odoo 12 en ubuntu18 server
 #!/bin/bash
+cd /usr/lib/python3/dist-packages/odoo/addons
 git config --global credential.helper store
 git clone https://github.com/agavariat/l10n_co_res_partner.git
 git clone https://github.com/agavariat/l10n_co_pos_res_partner.git
@@ -25,7 +26,6 @@ git clone https://github.com/agavariat/muk_web_theme.git
 git clone https://github.com/agavariat/muk_utils.git
 git clone https://github.com/agavariat/muk_autovacuum.git
 git clone https://github.com/agavariat/pos_personalized_sequence.git
-git clone https://github.com/agavariat/portal_documents_management.git
 git clone https://github.com/agavariat/bi_pos_reports.git
 git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
 git clone https://github.com/agavariat/pos_ticket.git
@@ -33,7 +33,6 @@ git clone https://github.com/agavariat/purchase_order_automation.git
 git clone https://github.com/agavariat/barcodes_generator_product.git
 git clone https://github.com/agavariat/barcodes_generator_abstract.git
 git clone https://github.com/agavariat/pos_margin.git
-git clone https://github.com/agavariat/account_addons.git
 git clone https://github.com/agavariat/purchase_order_variant_mgmt.git
 git clone https://github.com/agavariat/web_widget_x2many_2d_matrix.git
 git clone https://github.com/agavariat/bi_crm_task.git
@@ -50,15 +49,15 @@ git clone https://github.com/agavariat/pos_cash_in_out_odoo.git
 git clone https://github.com/agavariat/mail_delivery_failure_notification_oin.git
 git clone https://github.com/agavariat/pos_auto_session_closed_app.git
 git clone https://github.com/agavariat/account_aiu.git
-git clone https://github.com/agavariat/dev_picking_cancel.git
-git clone https://github.com/agavariat/website_google_tag_manager.git
-git clone https://github.com/agavariat/website_support.git
-git clone https://github.com/agavariat/gtica_whatsapp_live_free.git
-git clone https://github.com/agavariat/website_sale_require_login.git
 git clone -b main https://github.com/agavariat/co-nomina.git
 git clone -b main https://github.com/agavariat/nomina_colombia.git
+git clone https://github.com/agavariat/dev_picking_cancel.git
+git clone https://github.com/agavariat/gtica_whatsapp_live_free.git
+git clone https://github.com/agavariat/website_sale_require_login.git
 git clone https://github.com/agavariat/website_sale_suggest_create_account.git
 git clone https://github.com/agavariat/website_sale_global_discount.git
+git clone https://github.com/agavariat/website_google_tag_manager.git
+git clone https://github.com/agavariat/website_support.git
 git clone https://github.com/agavariat/purchase_last_price_info.git
 git clone https://github.com/agavariat/theme_alan.git
 git clone https://github.com/agavariat/alan_customize.git
@@ -71,6 +70,7 @@ git clone https://github.com/agavariat/done_activity.git
 git clone https://github.com/agavariat/mail_send_attchs_zip.git
 git clone https://github.com/agavariat/payment_report_co.git
 git clone https://github.com/agavariat/website_facebook_pixel.git
+git clone https://github.com/agavariat/portal_documents_management.git
 git clone https://github.com/agavariat/report_xlsx.git
 git clone https://github.com/agavariat/project_description.git
 git clone https://github.com/agavariat/project_list.git
@@ -79,3 +79,14 @@ git clone https://github.com/agavariat/project_stage_closed.git
 git clone https://github.com/agavariat/project_task_default_stage.git
 git clone https://github.com/agavariat/account_dynamic_reports.git
 git clone https://github.com/agavariat/dynamic_xlsx.git
+git clone https://github.com/agavariat/pos_session_closing_stock_error.git
+git clone https://github.com/agavariat/account_tax_balance.git
+git clone https://github.com/agavariat/account_type_menu.git
+git clone https://github.com/agavariat/custom_sensation.git
+git clone https://github.com/agavariat/l10n_co_res_partner_crm.git
+git clone https://github.com/agavariat/partner_statement.git
+git clone https://github.com/agavariat/pos_order_to_sale_order.git
+git clone https://github.com/agavariat/account_financial_report.git
+git clone https://github.com/agavariat/default_account_credit_note.git
+git clone https://github.com/agavariat/account_netting.git
+chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
