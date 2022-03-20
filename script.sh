@@ -28,6 +28,7 @@ pip3 install email-validator
 pip3 install num2words
 pip3 install phonenumbers
 pip3 install pandas
+pip3 install holidays
 apt-get update
 cd
 cd /usr/lib/python3/dist-packages/odoo/addons
