@@ -99,6 +99,7 @@ git clone -b 14.0 https://github.com/agavariat/droggol_theme_common.git
 git clone -b 14.0 https://github.com/agavariat/theme_prime.git
 git clone -b 14.0 https://github.com/agavariat/contract.git
 git clone -b 14.0 https://github.com/agavariat/payment_report_co.git
+git clone https://github.com/agavariat/account_menu.git
 git clone https://github.com/agavariat/account_reconciliation_widget.git
 apt-get update
 service odoo restart
