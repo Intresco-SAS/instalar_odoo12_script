@@ -72,7 +72,7 @@ git clone https://github.com/agavariat/pw_customer_required.git
 #git clone https://github.com/agavariat/sale_order_automation.git
 git clone https://github.com/agavariat/sale_order_line_product_image.git
 git clone https://github.com/agavariat/sh_pos_product_code.git
-git clone https://github.com/agavariat/support_documents.git
+git clone -b 14.0 https://github.com/agavariat/support_documents.git
 git clone https://github.com/agavariat/pos_tip_fixed_percent.git
 git clone -b 14.0 https://github.com/agavariat/account_dynamic_reports.git
 git clone https://github.com/agavariat/base_account_budget.git
