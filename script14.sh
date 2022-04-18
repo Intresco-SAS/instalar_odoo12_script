@@ -56,7 +56,6 @@ git clone -b 14.0 https://github.com/agavariat/nomina_colombia.git
 git clone https://github.com/agavariat/ob_pos_advance_receipt_note.git
 git clone https://github.com/agavariat/odoo_sale_rental.git
 git clone https://github.com/agavariat/om_account_daily_reports.git
-git clone https://github.com/agavariat/payslip_cancel.git
 git clone https://github.com/agavariat/pos_analytic_account.git
 git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
 git clone https://github.com/agavariat/bi_pos_return_order.git
