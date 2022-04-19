@@ -101,5 +101,7 @@ git clone -b 14.0 https://github.com/agavariat/payment_report_co.git
 git clone https://github.com/agavariat/account_menu.git
 git clone https://github.com/agavariat/account_reconciliation_widget.git
 git clone https://github.com/agavariat/od_journal_sequence.git
+git clone https://github.com/agavariat/purchase_order_type.git
+git clone https://github.com/agavariat/sale_order_type.git
 apt-get update
 service odoo restart
