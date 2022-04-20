@@ -11,11 +11,11 @@ dpkg -i wkhtmltox_0.12.6-1.bionic_amd64.deb
 cp /usr/local/bin/wkhtmltoimage /usr/bin/wkhtmltoimage
 cp /usr/local/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons
+apt --fix-broken install
 apt-get install git python3 python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools node-less libjpeg-dev gdebi -y
 apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
 sudo -H pip3 install -r https://raw.githubusercontent.com/odoo/odoo/master/requirements.txt
 apt install unzip
-apt install python3-pip -y
 pip3 install pysftp
 pip3 install xlrd
 pip3 install xlwt
