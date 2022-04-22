@@ -36,7 +36,6 @@ git config --global credential.helper store
 git clone -b 14.0 https://github.com/agavariat/auto_backup.git
 git clone https://github.com/agavariat/auto_odoo_db_and_file_backup.git
 git clone https://github.com/agavariat/base_vat_ext.git
-git clone https://github.com/agavariat/bi_hr_overtime_request.git
 git clone https://github.com/agavariat/bi_import_pos_order.git
 git clone https://github.com/agavariat/bi_pos_pay_later.git
 git clone -b 14.0 https://github.com/agavariat/bi_pos_reports.git
