@@ -30,6 +30,7 @@ pip3 install email-validator
 pip3 install num2words
 pip3 install pandas
 pip3 install holidays
+pip3 install dropbox
 apt-get update
 cd /etc/odoo
 mkdir dian
