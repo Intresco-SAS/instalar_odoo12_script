@@ -107,5 +107,7 @@ git clone https://github.com/agavariat/od_journal_sequence.git
 git clone https://github.com/agavariat/purchase_order_type.git
 git clone https://github.com/agavariat/sale_order_type.git
 git clone -b 14.0 https://github.com/agavariat/is_customer_is_vendor.git
+git clone -b 14.0 https://github.com/agavariat/project_parent_task_filter.git
+git clone https://github.com/agavariat/project_category.git
 apt-get update
 service odoo restart
