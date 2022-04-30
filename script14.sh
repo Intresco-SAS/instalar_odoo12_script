@@ -16,6 +16,7 @@ apt-get install git python3 python3-pip build-essential wget python3-dev python3
 apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
 sudo -H pip3 install -r https://raw.githubusercontent.com/odoo/odoo/master/requirements.txt
 apt install unzip
+pip3 install numpy
 pip3 install pysftp
 pip3 install xlrd
 pip3 install xlwt
