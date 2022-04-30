@@ -14,6 +14,7 @@ sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons
 apt install unzip
 apt install python3-pip -y
+pip3 install numpy
 pip3 install pysftp
 pip3 install xlrd
 pip3 install xlwt
