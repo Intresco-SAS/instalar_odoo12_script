@@ -112,5 +112,6 @@ git clone -b 14.0 https://github.com/agavariat/project_parent_task_filter.git
 git clone -b 14.0 https://github.com/agavariat/om_account_asset.git
 git clone https://github.com/agavariat/account_invoice_fiscal_position_update.git
 git clone https://github.com/agavariat/project_category.git
+git clone -b 14.0 https://github.com/agavariat/pos_cash_in_out_odoo.git
 apt-get update
 service odoo restart
