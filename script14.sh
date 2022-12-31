@@ -117,5 +117,6 @@ git clone -b 14.0 https://github.com/agavariat/aspl_stock_inventory_report.git
 git clone https://github.com/agavariat/oi_org_chart_account_group.git
 git clone https://github.com/agavariat/oi_account.git
 git clone https://github.com/agavariat/oi_org_chart.git
+git clone https://github.com/agavariat/bi_material_purchase_requisitions.git
 apt-get update
 service odoo restart
