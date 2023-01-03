@@ -118,5 +118,6 @@ git clone https://github.com/agavariat/oi_org_chart_account_group.git
 git clone https://github.com/agavariat/oi_account.git
 git clone https://github.com/agavariat/oi_org_chart.git
 git clone https://github.com/agavariat/bi_material_purchase_requisitions.git
+git clone https://github.com/agavariat/payment_multi_write_off.git
 apt-get update
 service odoo restart
