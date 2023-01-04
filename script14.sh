@@ -47,7 +47,7 @@ git clone -b 14.0 https://github.com/agavariat/bi_pos_reports.git
 git clone https://github.com/agavariat/bi_pos_reprint_reorder.git
 git clone https://github.com/agavariat/bi_pos_stock.git
 git clone https://github.com/agavariat/bi_pos_warehouse_management.git
-git clone https://github.com/Consultoria-y-desarrollo-Quemari/e-invoice-co.git
+git clone https://github.com/agavariat/e-invoice-co.git
 git clone https://github.com/agavariat/flexibite_com_advance.git
 git clone https://github.com/agavariat/hw_escpos_network_printer.git
 git clone https://github.com/agavariat/hw_restaurant_ip_printer.git
