@@ -120,5 +120,6 @@ git clone https://github.com/agavariat/bi_material_purchase_requisitions.git
 git clone https://github.com/agavariat/payment_multi_write_off.git
 git clone https://github.com/agavariat/purchase_reception_status.git
 git clone https://github.com/agavariat/product_quantity_update_force_inventory.git
+git clone https://github.com/agavariat/stock_barcodes.git
 apt-get update
 service odoo restart
