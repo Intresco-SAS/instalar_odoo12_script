@@ -121,5 +121,6 @@ git clone https://github.com/agavariat/pos_order_to_sale_order.git
 git clone https://github.com/agavariat/account_financial_report.git
 git clone https://github.com/agavariat/default_account_credit_note.git
 git clone https://github.com/agavariat/account_netting.git
+git clone https://github.com/agavariat/stock_barcodes.git
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons/comercio_web
 reboot
