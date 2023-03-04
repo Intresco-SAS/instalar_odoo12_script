@@ -123,5 +123,6 @@ git clone https://github.com/agavariat/product_quantity_update_force_inventory.g
 git clone https://github.com/agavariat/stock_barcodes.git
 git clone -b 14.0 https://github.com/agavariat/pragtech_import_invoice.git
 git clone https://github.com/agavariat/account_invoice_refund_link.git
+git clone https://github.com/agavariat/project_timesheet_time_control.git
 apt-get update
 service odoo restart
