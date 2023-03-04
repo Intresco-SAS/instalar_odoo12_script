@@ -124,5 +124,12 @@ git clone https://github.com/agavariat/stock_barcodes.git
 git clone -b 14.0 https://github.com/agavariat/pragtech_import_invoice.git
 git clone https://github.com/agavariat/account_invoice_refund_link.git
 git clone https://github.com/agavariat/project_timesheet_time_control.git
+git clone https://github.com/agavariat/hr_timesheet_task_stage.git
+git clone https://github.com/agavariat/web_ir_actions_act_multi.git
+git clone https://github.com/agavariat/account_move_name_sequence.git
+git clone https://github.com/agavariat/sh_timesheet_calendar.git
+git clone https://github.com/agavariat/account_netting.git
+git clone https://github.com/agavariat/web_ir_actions_act_view_reload.git
+git clone https://github.com/agavariat/hr_timesheet_task_domain.git
 apt-get update
 service odoo restart
