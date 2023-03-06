@@ -131,5 +131,6 @@ git clone https://github.com/agavariat/sh_timesheet_calendar.git
 git clone https://github.com/agavariat/account_netting.git
 git clone https://github.com/agavariat/web_ir_actions_act_view_reload.git
 git clone https://github.com/agavariat/hr_timesheet_task_domain.git
+git clone https://github.com/agavariat/account_lock_to_date.git
 apt-get update
 service odoo restart
