@@ -133,4 +133,5 @@ git clone https://github.com/agavariat/web_ir_actions_act_view_reload.git
 git clone https://github.com/agavariat/hr_timesheet_task_domain.git
 git clone https://github.com/agavariat/account_lock_to_date.git
 apt-get update
+timedatectl set-timezone America/Bogota
 service odoo restart
