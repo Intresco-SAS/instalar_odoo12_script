@@ -36,7 +36,9 @@ pip3 install dropbox
 apt-get update
 cd /etc/odoo
 mkdir dian
+mkdir backups
 chmod 777 -R dian
+chmod 777 -R backups
 cd /usr/lib/python3/dist-packages/odoo/addons
 git config --global credential.helper store
 git clone -b 14.0 https://github.com/agavariat/auto_backup.git
