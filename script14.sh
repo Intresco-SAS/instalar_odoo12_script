@@ -56,12 +56,12 @@ git clone https://github.com/agavariat/l10n_co_payroll.git
 git clone -b 14.0 https://github.com/agavariat/l10n_co_pos_res_partner.git
 git clone https://github.com/agavariat/mai_pos_custom_order_number.git
 git clone -b 14.0 https://github.com/agavariat/muk_web_theme.git
-git clone -b 14.0 https://github.com/agavariat/nomina_colombia.git
+git clone -b 14.1 https://github.com/agavariat/nomina_colombia.git
 git clone https://github.com/agavariat/ob_pos_advance_receipt_note.git
 git clone https://github.com/agavariat/odoo_sale_rental.git
 git clone https://github.com/agavariat/om_account_daily_reports.git
 git clone https://github.com/agavariat/pos_analytic_account.git
-git clone https://github.com/agavariat/pos_kitchen_receipt_app.git
+git clone -b 14.2 https://github.com/agavariat/pos_kitchen_receipt_app.git
 git clone https://github.com/agavariat/bi_pos_return_order.git
 git clone https://github.com/agavariat/pos_orders_list.git
 git clone https://github.com/agavariat/pos_payment_change.git
