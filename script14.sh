@@ -29,6 +29,7 @@ pip3 install PyQRCode
 pip3 install pypng
 pip3 install email-validator
 pip3 install num2words
+pip3 install phonenumbers
 pip3 install pandas
 pip3 install holidays
 pip3 install dropbox
@@ -39,7 +40,6 @@ chmod 777 -R dian
 cd /usr/lib/python3/dist-packages/odoo/addons
 git config --global credential.helper store
 git clone -b 14.0 https://github.com/agavariat/auto_backup.git
-git clone https://github.com/agavariat/auto_odoo_db_and_file_backup.git
 git clone https://github.com/agavariat/base_vat_ext.git
 git clone https://github.com/agavariat/bi_import_pos_order.git
 git clone https://github.com/agavariat/bi_pos_pay_later.git
@@ -47,7 +47,7 @@ git clone -b 14.0 https://github.com/agavariat/bi_pos_reports.git
 git clone https://github.com/agavariat/bi_pos_reprint_reorder.git
 git clone https://github.com/agavariat/bi_pos_stock.git
 git clone https://github.com/agavariat/bi_pos_warehouse_management.git
-git clone https://github.com/agavariat/e-invoice-co.git
+git clone -b 14.1 https://github.com/agavariat/e-invoice-co.git
 git clone https://github.com/agavariat/flexibite_com_advance.git
 git clone https://github.com/agavariat/hw_escpos_network_printer.git
 git clone https://github.com/agavariat/hw_restaurant_ip_printer.git
@@ -132,6 +132,8 @@ git clone https://github.com/agavariat/account_netting.git
 git clone https://github.com/agavariat/web_ir_actions_act_view_reload.git
 git clone https://github.com/agavariat/hr_timesheet_task_domain.git
 git clone https://github.com/agavariat/account_lock_to_date.git
+git clone -b 14.0 https://github.com/agavariat/pos_order_to_sale_order.git
+git clone https://github.com/agavariat/database_backup_to_s3.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
