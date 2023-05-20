@@ -136,6 +136,8 @@ git clone https://github.com/agavariat/hr_timesheet_task_domain.git
 git clone https://github.com/agavariat/account_lock_to_date.git
 git clone -b 14.0 https://github.com/agavariat/pos_order_to_sale_order.git
 git clone https://github.com/agavariat/database_backup_to_s3.git
+git clone -b 14.0 https://github.com/agavariat/pos_auto_session_closed_app.git
+git clone -b 14.0 https://github.com/agavariat/pos_user_restriction.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
