@@ -139,6 +139,7 @@ git clone https://github.com/agavariat/database_backup_to_s3.git
 git clone -b 14.0 https://github.com/agavariat/pos_auto_session_closed_app.git
 git clone -b 14.0 https://github.com/agavariat/pos_user_restriction.git
 git clone https://github.com/agavariat/dbfilter_from_header.git
+git clone -b 14.0 https://github.com/Intresco-SAS/bi_pos_multi_shop.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
