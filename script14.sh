@@ -25,6 +25,7 @@ pip3 install python-barcode
 pip3 install pyopenssl
 pip3 install requests
 pip3 install xmltodict
+pip3 install dicttoxml 
 pip3 install PyQRCode
 pip3 install pypng
 pip3 install email-validator
