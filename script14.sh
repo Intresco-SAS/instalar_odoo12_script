@@ -143,6 +143,7 @@ git clone https://github.com/agavariat/dbfilter_from_header.git
 git clone -b 14.0 https://github.com/Intresco-SAS/bi_pos_multi_shop.git
 git clone -b 14.0 https://github.com/Intresco-SAS/stock_move_location.git
 git clone -b 14.0 https://github.com/Intresco-SAS/done_activity.git
+git clone https://github.com/Intresco-SAS/purchase_order_line_menu.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
