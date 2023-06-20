@@ -145,7 +145,7 @@ git clone -b 14.0 https://github.com/Intresco-SAS/stock_move_location.git
 git clone -b 14.0 https://github.com/Intresco-SAS/done_activity.git
 git clone https://github.com/Intresco-SAS/purchase_order_line_menu.git
 git clone https://github.com/Intresco-SAS/pos_order_return.git
-git clone https://github.com/Intresco-SAS/pos_order_mgmt.git
+git clone -b 14.0 https://github.com/Intresco-SAS/pos_order_mgmt.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
