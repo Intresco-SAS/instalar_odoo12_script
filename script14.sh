@@ -154,6 +154,7 @@ git clone https://github.com/Intresco-SAS/project_mail_chatter.git
 git clone https://github.com/Intresco-SAS/project_status.git
 git clone https://github.com/Intresco-SAS/project_tag.git
 git clone -b 14.0 https://github.com/Intresco-SAS/project_task_default_stage.git
+git clone https://github.com/Intresco-SAS/project_stage_mgmt.git
 git clone https://github.com/Intresco-SAS/to_refund_account.git
 apt-get update
 timedatectl set-timezone America/Bogota
