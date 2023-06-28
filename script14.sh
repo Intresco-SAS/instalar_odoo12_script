@@ -167,6 +167,7 @@ git clone https://github.com/Intresco-SAS/account_invoice_line_report.git
 git clone https://github.com/Intresco-SAS/mrp_production_show_post_inventory.git
 git clone https://github.com/Intresco-SAS/stock_move_line_auto_fill.git
 git clone https://github.com/Intresco-SAS/stock_valuation_layer_by_category.git
+git clone https://github.com/Intresco-SAS/cimd_import_invoice.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
