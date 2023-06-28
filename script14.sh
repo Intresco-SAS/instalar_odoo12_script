@@ -156,6 +156,17 @@ git clone https://github.com/Intresco-SAS/project_tag.git
 git clone -b 14.0 https://github.com/Intresco-SAS/project_task_default_stage.git
 git clone https://github.com/Intresco-SAS/project_stage_mgmt.git
 git clone https://github.com/Intresco-SAS/to_refund_account.git
+git clone -b report_fix https://github.com/Intresco-SAS/CIMD.git
+git clone https://github.com/Intresco-SAS/bi_crm_task.git
+git clone https://github.com/Intresco-SAS/custom_cimd.git
+git clone https://github.com/Intresco-SAS/hr_organizational_chart.git
+git clone https://github.com/Intresco-SAS/jt_crm_security.git
+git clone https://github.com/Intresco-SAS/ki_contract_expiration_alert.git
+git clone https://github.com/Intresco-SAS/l10n_co_res_partner_crm.git
+git clone https://github.com/Intresco-SAS/account_invoice_line_report.git
+git clone https://github.com/Intresco-SAS/mrp_production_show_post_inventory.git
+git clone https://github.com/Intresco-SAS/stock_move_line_auto_fill.git
+git clone https://github.com/Intresco-SAS/stock_valuation_layer_by_category.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
