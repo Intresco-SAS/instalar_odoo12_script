@@ -170,6 +170,8 @@ git clone https://github.com/Intresco-SAS/stock_valuation_layer_by_category.git
 git clone https://github.com/Intresco-SAS/cimd_import_invoice.git
 git clone https://github.com/Intresco-SAS/l10n_co_exogena.git
 git clone https://github.com/Intresco-SAS/telemetrik_custom.git
+git clone https://github.com/Intresco-SAS/project_template.git
+git clone https://github.com/Intresco-SAS/stock_inventory_analytic.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
