@@ -55,12 +55,12 @@ git clone https://github.com/Intresco-SAS/flexibite_com_advance.git
 git clone https://github.com/Intresco-SAS/hw_escpos_network_printer.git
 git clone https://github.com/Intresco-SAS/hw_restaurant_ip_printer.git
 git clone https://github.com/Intresco-SAS/init_web_many2one_disable.git
-git clone https://github.com/Intresco-SAS/l10n_co_payroll.git
+#git clone https://github.com/Intresco-SAS/l10n_co_payroll.git
 git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_pos_res_partner.git
 git clone https://github.com/Intresco-SAS/mai_pos_custom_order_number.git
 git clone -b 14.0 https://github.com/Intresco-SAS/muk_web_theme.git
-git clone -b 14.1 https://github.com/Intresco-SAS/nomina_colombia.git
-git clone -b 14.1 https://github.com/Intresco-SAS/ob_pos_advance_receipt_note.git
+git clone -b 14.0 https://github.com/Intresco-SAS/nomina_colombia.git
+git clone -b 14.0 https://github.com/Intresco-SAS/ob_pos_advance_receipt_note.git
 git clone https://github.com/Intresco-SAS/odoo_sale_rental.git
 git clone https://github.com/Intresco-SAS/om_account_daily_reports.git
 git clone https://github.com/Intresco-SAS/pos_analytic_account.git
@@ -68,7 +68,7 @@ git clone -b 14.0 https://github.com/Intresco-SAS/pos_kitchen_receipt_app.git
 git clone https://github.com/Intresco-SAS/bi_pos_return_order.git
 git clone https://github.com/Intresco-SAS/pos_orders_list.git
 git clone https://github.com/Intresco-SAS/pos_payment_change.git
-git clone -b 14.1-restrict https://github.com/Intresco-SAS/pos_personalized_sequence.git
+git clone -b 14.0 https://github.com/Intresco-SAS/pos_personalized_sequence.git
 git clone https://github.com/Intresco-SAS/pos_show_config_name.git
 git clone https://github.com/Intresco-SAS/pos_tax_display.git
 #git clone https://github.com/Intresco-SAS/product_cost_with_taxes.git
@@ -81,7 +81,7 @@ git clone https://github.com/Intresco-SAS/sh_pos_product_code.git
 git clone https://github.com/Intresco-SAS/pos_tip_fixed_percent.git
 git clone -b 14.0 https://github.com/Intresco-SAS/account_dynamic_reports.git
 git clone https://github.com/Intresco-SAS/base_account_budget.git
-git clone https://github.com/Intresco-SAS/bi_pos_stock.git
+#git clone https://github.com/Intresco-SAS/bi_pos_stock.git
 git clone -b final https://github.com/Intresco-SAS/journal_reports.git
 git clone https://github.com/Intresco-SAS/pos_default_partner.git
 git clone -b 14.0 https://github.com/Intresco-SAS/purchase_discount.git
@@ -147,7 +147,7 @@ git clone https://github.com/Intresco-SAS/pos_order_return.git
 git clone -b 14.0 https://github.com/Intresco-SAS/pos_order_mgmt.git
 git clone -b 14.0 https://github.com/Intresco-SAS/bi_print_journal_entries.git
 git clone https://github.com/Intresco-SAS/custom_energostech.git
-git clone -b 14.0 https://github.com/Intresco-SAS/done_activity.git
+#git clone -b 14.0 https://github.com/Intresco-SAS/done_activity.git
 git clone https://github.com/Intresco-SAS/product_code_unique.git
 git clone -b 14.0 https://github.com/Intresco-SAS/project_list.git
 git clone https://github.com/Intresco-SAS/project_mail_chatter.git
@@ -162,7 +162,7 @@ git clone https://github.com/Intresco-SAS/custom_cimd.git
 git clone https://github.com/Intresco-SAS/hr_organizational_chart.git
 git clone https://github.com/Intresco-SAS/jt_crm_security.git
 git clone https://github.com/Intresco-SAS/ki_contract_expiration_alert.git
-git clone https://github.com/Intresco-SAS/l10n_co_res_partner_crm.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_res_partner_crm.git
 git clone https://github.com/Intresco-SAS/account_invoice_line_report.git
 git clone https://github.com/Intresco-SAS/mrp_production_show_post_inventory.git
 git clone https://github.com/Intresco-SAS/stock_move_line_auto_fill.git
