@@ -131,7 +131,7 @@ git clone https://github.com/Intresco-SAS/hr_timesheet_task_stage.git
 git clone https://github.com/Intresco-SAS/web_ir_actions_act_multi.git
 git clone https://github.com/Intresco-SAS/account_move_name_sequence.git
 git clone https://github.com/Intresco-SAS/sh_timesheet_calendar.git
-git clone https://github.com/Intresco-SAS/account_netting.git
+git clone -b 14.0 https://github.com/Intresco-SAS/account_netting.git
 git clone https://github.com/Intresco-SAS/web_ir_actions_act_view_reload.git
 git clone https://github.com/Intresco-SAS/hr_timesheet_task_domain.git
 git clone https://github.com/Intresco-SAS/account_lock_to_date.git
