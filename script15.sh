@@ -43,6 +43,8 @@ chmod 777 -R backups
 cd /usr/lib/python3/dist-packages/odoo/addons
 git config --global credential.helper store
 git clone -b 15.0-dev https://github.com/Intresco-SAS/e-invoice-co.git
+git clone https://github.com/Intresco-SAS/partner_firstname.git
+git clone -b 15.0 https://github.com/Intresco-SAS/dbfilter_from_header.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
