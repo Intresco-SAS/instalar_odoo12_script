@@ -6,10 +6,7 @@ wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 echo "deb http://nightly.odoo.com/15.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/odoo.list
 apt-get update && apt-get install odoo -y
 apt-get install xfonts-75dpi
-wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.jammy_amd64.deb
-dpkg -i wkhtmltox_0.12.6-1.jammy_amd64.deb
-cp /usr/local/bin/wkhtmltoimage /usr/bin/wkhtmltoimage
-cp /usr/local/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
+sudo apt install wkhtmltopdf
 chmod 777 -R /usr/lib/python3/dist-packages/odoo/addons
 apt --fix-broken install
 apt-get install git python3 python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools node-less libjpeg-dev gdebi -y
