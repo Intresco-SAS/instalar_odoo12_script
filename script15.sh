@@ -43,10 +43,37 @@ mkdir backups
 chmod 777 -R dian
 chmod 777 -R backups
 cd /usr/lib/python3/dist-packages/odoo/addons
+mkdir custom-addons
+cd custom-addons
 git config --global credential.helper store
 git clone -b 15.0-dev https://github.com/Intresco-SAS/e-invoice-co.git
-git clone https://github.com/Intresco-SAS/partner_firstname.git
-git clone -b 15.0 https://github.com/Intresco-SAS/dbfilter_from_header.git
+git clone -b 15.0 https://github.com/Intresco-SAS/nomina_colombia_ent.git
+git clone -b 15.0 https://github.com/Intresco-SAS/int_account_analytic_required.git
+git clone -b 15.0 https://github.com/Intresco-SAS/account_move_name_sequence.git
+git clone -b 15.0 https://github.com/Intresco-SAS/account_payment_advance_mac5.git
+git clone -b 15.0 https://github.com/Intresco-SAS/aspl_stock_inventory_report.git
+git clone -b 15.0 https://github.com/Intresco-SAS/dashboard_goals.git
+git clone -b 15.0 https://github.com/Intresco-SAS/database_backup_to_s3.git
+git clone -b 15.0 https://github.com/Intresco-SAS/int_account_lock.git
+git clone -b 15.0 https://github.com/Intresco-SAS/int_advance_payment.git
+git clone -b 15.0 https://github.com/Intresco-SAS/int_stock_analytic.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_account_reports_ent.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_reports_int.git
+git clone -b 15.0 https://github.com/Intresco-SAS/mrp_wip_odoo.git
+git clone -b 15.0 https://github.com/Intresco-SAS/stock_picking_default_planned_transfer.git
+git clone -b 15.0 https://github.com/OCA/purchase-workflow.git
+git clone -b 15.0 https://github.com/OCA/stock-logistics-warehouse.git
+git clone -b 15.0 https://github.com/OCA/manufacture.git
+git clone -b 15.0 https://github.com/OCA/sale-workflow.git
+git clone -b 15.0 https://github.com/OCA/account-invoicing.git
+git clone -b 15.0 https://github.com/OCA/account-payment.git
+git clone -b 15.0 https://github.com/OCA/account-analytic.git
+git clone -b 15.0 https://github.com/OCA/server-backend.git
+git clone -b 15.0 https://github.com/OCA/server-ux.git
+git clone -b 15.0 https://github.com/OCA/server-tools.git
+git clone -b 15.0 https://github.com/OCA/partner-contact.git
+git clone -b 15.0 https://github.com/OCA/account-financial-tools.git
+git clone -b 15.0 https://github.com/OCA/product-attribute.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
