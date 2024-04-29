@@ -177,6 +177,7 @@ git clone https://github.com/Intresco-SAS/sale_order_line_menu.git
 git clone https://github.com/Intresco-SAS/barcodes_generator_product.git
 git clone https://github.com/Intresco-SAS/barcodes_generator_abstract.git
 git clone -b 14.0 https://github.com/Intresco-SAS/custom_dryrefor.git
+git clone -b 14.0 https://github.com/Intresco-SAS/bank-statement-import.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
