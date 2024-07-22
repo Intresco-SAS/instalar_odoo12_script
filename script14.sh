@@ -50,7 +50,7 @@ git clone -b 14.0 https://github.com/Intresco-SAS/bi_pos_reports.git
 git clone https://github.com/Intresco-SAS/bi_pos_reprint_reorder.git
 git clone https://github.com/Intresco-SAS/bi_pos_stock.git
 git clone https://github.com/Intresco-SAS/bi_pos_warehouse_management.git
-git clone https://github.com/Intresco-SAS/e-invoice-co.git
+#git clone https://github.com/Intresco-SAS/e-invoice-co.git
 git clone https://github.com/Intresco-SAS/flexibite_com_advance.git
 git clone https://github.com/Intresco-SAS/hw_escpos_network_printer.git
 git clone https://github.com/Intresco-SAS/hw_restaurant_ip_printer.git
@@ -178,6 +178,14 @@ git clone https://github.com/Intresco-SAS/barcodes_generator_product.git
 git clone https://github.com/Intresco-SAS/barcodes_generator_abstract.git
 git clone -b 14.0 https://github.com/Intresco-SAS/custom_dryrefor.git
 git clone -b 14.0 https://github.com/Intresco-SAS/bank-statement-import.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_e-invoice.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_trm.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_account_reports.git
+git clone -b 14.0 https://github.com/Intresco-SAS/int_l10n_co_pos_edi.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_tax_extension.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_res_partner.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_suport_doc.git
+git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_exogena.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
