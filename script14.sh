@@ -186,6 +186,11 @@ git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_tax_extension.git
 git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_res_partner.git
 git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_suport_doc.git
 git clone -b 14.0 https://github.com/Intresco-SAS/l10n_co_exogena.git
+git clone -b 14.0 https://github.com/Intresco-SAS/bi_employee_contract_report.git
+git clone -b 14.0 https://github.com/Intresco-SAS/bi_crm_leads_sequence.git
+git clone -b 14.0 https://github.com/Intresco-SAS/employee_contract_history.git
+git clone -b 14.0 https://github.com/Intresco-SAS/employee_contract_types.git
+git clone -b 14.0 https://github.com/Intresco-SAS/employee_full_name.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
