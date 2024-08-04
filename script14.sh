@@ -97,7 +97,7 @@ git clone https://github.com/Intresco-SAS/website_axis_helpdesk.git
 git clone https://github.com/Intresco-SAS/analytic_account_enh.git
 git clone https://github.com/Intresco-SAS/mrp_analytic.git
 git clone https://github.com/Intresco-SAS/mrp_analytic_sale_project.git
-git clone https://github.com/Intresco-SAS/account_analytic_parent.git
+git -b 14.0 clone https://github.com/Intresco-SAS/account_analytic_parent.git
 git clone https://github.com/Intresco-SAS/pass_analytic_acc_in_journal_app.git
 git clone https://github.com/Intresco-SAS/stock_analytic.git
 git clone -b 14.0 https://github.com/Intresco-SAS/droggol_theme_common.git
