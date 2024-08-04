@@ -192,6 +192,10 @@ git clone -b 14.0 https://github.com/Intresco-SAS/employee_contract_history.git
 git clone -b 14.0 https://github.com/Intresco-SAS/employee_contract_types.git
 git clone -b 14.0 https://github.com/Intresco-SAS/employee_full_name.git
 git clone -b 14.0 https://github.com/Intresco-SAS/dashboard_goals.git
+git clone -b 14.0 https://github.com/Intresco-SAS/account_move_multi_cancel.git
+git clone -b 14.0 https://github.com/Intresco-SAS/backend_iframe.git
+git clone -b 14.0 https://github.com/Intresco-SAS/eg_so_tax_summary.git
+git clone -b 14.0 https://github.com/Intresco-SAS/custom_pcc.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
