@@ -196,6 +196,7 @@ git clone -b 14.0 https://github.com/Intresco-SAS/eg_so_tax_summary.git
 git clone -b 14.0 https://github.com/Intresco-SAS/custom_pcc.git
 git clone -b 14.0 https://github.com/Intresco-SAS/custom_gedesarrollo.git
 git clone -b 14.0 https://github.com/Intresco-SAS/pos.git
+git clone -b 14.0 https://github.com/Intresco-SAS/odoo_sale_estimates.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
