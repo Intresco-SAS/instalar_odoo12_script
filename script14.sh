@@ -147,7 +147,6 @@ git clone https://github.com/Intresco-SAS/pos_order_return.git
 git clone -b 14.0 https://github.com/Intresco-SAS/pos_order_mgmt.git
 git clone -b 14.0 https://github.com/Intresco-SAS/bi_print_journal_entries.git
 git clone https://github.com/Intresco-SAS/custom_energostech.git
-#git clone -b 14.0 https://github.com/Intresco-SAS/done_activity.git
 git clone https://github.com/Intresco-SAS/product_code_unique.git
 git clone -b 14.0 https://github.com/Intresco-SAS/project_list.git
 git clone https://github.com/Intresco-SAS/project_mail_chatter.git
@@ -168,7 +167,6 @@ git clone https://github.com/Intresco-SAS/mrp_production_show_post_inventory.git
 git clone https://github.com/Intresco-SAS/stock_move_line_auto_fill.git
 git clone https://github.com/Intresco-SAS/stock_valuation_layer_by_category.git
 git clone https://github.com/Intresco-SAS/cimd_import_invoice.git
-git clone https://github.com/Intresco-SAS/l10n_co_exogena.git
 git clone https://github.com/Intresco-SAS/telemetrik_custom.git
 git clone https://github.com/Intresco-SAS/project_template.git
 git clone https://github.com/Intresco-SAS/stock_inventory_analytic.git
