@@ -76,6 +76,44 @@ git clone -b 15.0 https://github.com/OCA/account-financial-tools.git
 git clone -b 15.0 https://github.com/OCA/product-attribute.git
 git clone -b 15.0 https://github.com/OCA/brand.git
 git clone -b 15.0 https://github.com/Intresco-SAS/stock_account_internal_move.git
+git clone -b 15.0 https://github.com/OCA/
+git clone -b 15.0 https://github.com/OCA/account-financial-reporting.git
+git clone -b 15.0 https://github.com/OCA/account-reconcile.git
+git clone -b 15.0 https://github.com/Intresco-SAS/account_dynamic_reports.git
+git clone -b 15.0 https://github.com/OCA/bank-payment.git
+git clone -b 15.0 https://github.com/OCA/bank-statement-import.git
+git clone -b 15.0 https://github.com/Intresco-SAS/bi_crm_task.git
+git clone -b 15.0 https://github.com/Intresco-SAS/bi_hr_payroll.git
+git clone -b 15.0 https://github.com/Intresco-SAS/bi_hr_payroll_account.git
+git clone -b 15.0 https://github.com/OCA/contract.git
+git clone -b 15.0 https://github.com/OCA/credit-control.git
+git clone -b 15.0 https://github.com/Intresco-SAS/custom_gedesarrollo.git
+git clone -b 15.0 https://github.com/Intresco-SAS/droggol_theme_common.git
+git clone -b 15.0 https://github.com/Intresco-SAS/theme_prime.git
+git clone -b 15.0 https://github.com/Intresco-SAS/hw_escpos_network_printer.git
+git clone -b 15.0 https://github.com/Intresco-SAS/hw_restaurant_ip_printer.git
+git clone -b 15.0 https://github.com/Intresco-SAS/nomina_colombia.git
+git clone -b 15.0 https://github.com/Intresco-SAS/muk_web.git
+git clone -b 15.0 https://github.com/Intresco-SAS/muk_web_theme.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_e-invoice.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_pos_res_partner.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_suport_doc.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_tax_extension.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_trm.git
+git clone -b 15.0 https://github.com/OCA/payroll.git
+git clone -b 15.0 https://github.com/OCA/project.git
+git clone -b 15.0 https://github.com/OCA/reporting-engine.git
+git clone -b 15.0 https://github.com/Intresco-SAS/sr_bank_reconcile_statement_report.git
+git clone -b 15.0 https://github.com/OCA/stock-logistics-workflow.git
+git clone -b 15.0 https://github.com/Intresco-SAS/support_documents.git
+git clone -b 15.0 https://github.com/OCA/timesheet.git
+git clone -b 15.0 https://github.com/Intresco-SAS/to_refund_account.git
+git clone -b 15.0 https://github.com/OCA/web.git
+git clone -b 15.0 https://github.com/Intresco-SAS/website_axis_helpdesk.git
+git clone -b 15.0 https://github.com/Intresco-SAS/website_floating_whatsapp_icon.git
+git clone https://github.com/Intresco-SAS/sh_pos_access_rights_hr.git
+git clone https://github.com/Intresco-SAS/pos_waiter_restrict_table.git
+git clone https://github.com/Intresco-SAS/pw_pos_waiter.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
