@@ -115,6 +115,13 @@ git clone -b 15.0 https://github.com/Intresco-SAS/om_account_asset.git
 git clone https://github.com/Intresco-SAS/sh_pos_access_rights_hr.git
 git clone https://github.com/Intresco-SAS/pos_waiter_restrict_table.git
 git clone https://github.com/Intresco-SAS/pw_pos_waiter.git
+git clone -b 15.0 https://github.com/Intresco-SAS/is_customer_is_vendor.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_exogena.git
+git clone -b 15.0 https://github.com/Intresco-SAS/bi_material_purchase_requisitions.git
+git clone -b 15.0 https://github.com/Intresco-SAS/telemetrik_custom.git
+git clone -b 15.0 https://github.com/Intresco-SAS/analytic_account_enh.git
+git clone -b 15.0 https://github.com/Intresco-SAS/account_move_multi_cancel.git
+git clone -b 15.0 https://github.com/OCA/account-invoice-reporting.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
