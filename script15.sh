@@ -113,6 +113,7 @@ git clone -b 15.0 https://github.com/OCA/web.git
 git clone -b 15.0 https://github.com/Intresco-SAS/website_axis_helpdesk.git
 git clone -b 15.0 https://github.com/Intresco-SAS/website_floating_whatsapp_icon.git
 git clone -b 15.0 https://github.com/Intresco-SAS/om_account_asset.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_account_reports.git
 git clone https://github.com/Intresco-SAS/sh_pos_access_rights_hr.git
 git clone https://github.com/Intresco-SAS/pos_waiter_restrict_table.git
 git clone https://github.com/Intresco-SAS/pw_pos_waiter.git
