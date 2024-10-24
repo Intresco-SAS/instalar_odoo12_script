@@ -97,6 +97,7 @@ git clone -b 15.0 https://github.com/Intresco-SAS/muk_web.git
 git clone -b 15.0 https://github.com/Intresco-SAS/muk_web_theme.git
 git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_e-invoice.git
 git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_pos_res_partner.git
+git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_res_partner.git
 git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_suport_doc.git
 git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_tax_extension.git
 git clone -b 15.0 https://github.com/Intresco-SAS/l10n_co_trm.git
