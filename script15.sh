@@ -129,6 +129,7 @@ git clone -b 15.0 https://github.com/Intresco-SAS/backend_iframe.git
 git clone -b 15.0 https://github.com/Intresco-SAS/sh_entmate_theme.git
 git clone -b 15.0 https://github.com/Intresco-SAS/base_account_budget.git
 git clone -b 15.0 https://github.com/Intresco-SAS/int_account_dynamic_reports.git
+git clone -b 15.0 https://github.com/Intresco-SAS/sh_ent_theme_config.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
