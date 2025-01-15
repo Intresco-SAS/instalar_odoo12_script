@@ -132,6 +132,10 @@ git clone -b 15.0 https://github.com/Intresco-SAS/int_account_dynamic_reports.gi
 git clone -b 15.0 https://github.com/Intresco-SAS/sh_ent_theme_config.git
 git clone -b 15.0 https://github.com/OCA/pos.git
 git clone -b 15.0 https://github.com/Intresco-SAS/int_l10n_co_pos_edi.git
+git clone -b 15.0 https://github.com/Intresco-SAS/bi_pos_multi_session_sync.git
+git clone -b 15.0 https://github.com/Intresco-SAS/bi_pos_reports.git
+git clone -b 15.0 https://github.com/Intresco-SAS/custom_dryrefor.git
+git clone -b 15.0 https://github.com/Intresco-SAS/task_checklist.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
