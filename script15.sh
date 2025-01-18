@@ -76,7 +76,6 @@ git clone -b 15.0 https://github.com/OCA/account-financial-tools.git
 git clone -b 15.0 https://github.com/OCA/product-attribute.git
 git clone -b 15.0 https://github.com/OCA/brand.git
 git clone -b 15.0 https://github.com/Intresco-SAS/stock_account_internal_move.git
-git clone -b 15.0 https://github.com/OCA/
 git clone -b 15.0 https://github.com/OCA/account-financial-reporting.git
 git clone -b 15.0 https://github.com/OCA/account-reconcile.git
 git clone -b 15.0 https://github.com/Intresco-SAS/account_dynamic_reports.git
