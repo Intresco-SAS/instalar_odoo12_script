@@ -142,6 +142,10 @@ git clone -b 15.0 https://github.com/Intresco-SAS/pos_kitchen_receipt_app.git
 git clone https://github.com/Intresco-SAS/int_accounting_tools.git
 git clone https://github.com/Intresco-SAS/int_account_payment_multi_deduction.git
 git clone -b 15.0 https://github.com/Intresco-SAS/int_pos_proforma_receipt.git
+git clone https://github.com/Intresco-SAS/oi_account.git
+git clone -b 15.0 https://github.com/Intresco-SAS/oi_org_chart_account_group.git
+git clone -b 15.0 https://github.com/Intresco-SAS/oi_org_chart.git
+
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
