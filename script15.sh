@@ -151,6 +151,7 @@ git clone https://github.com/Intresco-SAS/pos_employee_close_session.git
 git clone https://github.com/Intresco-SAS/sale_order_pos.git
 git clone https://github.com/Intresco-SAS/bi_pos_stock.git
 git clone -b 15.0 https://github.com/Intresco-SAS/pos_auto_session_closed_app.git
+git clone -b 15.0 https://github.com/Intresco-SAS/auto_backup.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
