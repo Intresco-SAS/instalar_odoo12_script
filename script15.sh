@@ -156,6 +156,9 @@ git clone -b 15.0 https://github.com/Intresco-SAS/bi_pos_multi_shop.git
 git clone https://github.com/Intresco-SAS/pos_psnumpad.git
 git clone https://github.com/Intresco-SAS/custom_chilacos.git
 git clone https://github.com/Intresco-SAS/int_pos_default_partner.git
+git clone -b 15.0 https://github.com/Intresco-SAS/invoice_analytic_account.git
+git clone -b 15.0 https://github.com/Intresco-SAS/custom_pci.git
+git clone -b 15.0 https://github.com/Intresco-SAS/done_activity.git
 apt-get update
 timedatectl set-timezone America/Bogota
 service odoo restart
